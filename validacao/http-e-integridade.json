@@ -1,0 +1,550 @@
+{
+  "base": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/",
+  "pages": 5,
+  "local_links": "OK",
+  "local_anchors": "OK",
+  "files_checked": 89,
+  "public_http": [
+    {
+      "path": "content.xml",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 512160
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 36083
+    },
+    {
+      "path": "html/aprender-em-rede.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 34704
+    },
+    {
+      "path": "html/conceitos-e-critica.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 33758
+    },
+    {
+      "path": "html/praticas-1-a-3.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 34090
+    },
+    {
+      "path": "html/praticas-4-a-6.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 40887
+    },
+    {
+      "path": "libs/common.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 169571
+    },
+    {
+      "path": "libs/common_i18n.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 3429
+    },
+    {
+      "path": "libs/exe_export.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 42197
+    },
+    {
+      "path": "libs/favicon.ico",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 2889
+    },
+    {
+      "path": "theme/config.xml",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 882
+    },
+    {
+      "path": "theme/screenshot.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 18948
+    },
+    {
+      "path": "theme/style.css",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 15873
+    },
+    {
+      "path": "theme/style.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 5171
+    },
+    {
+      "path": "content/css/base.css",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 14006
+    },
+    {
+      "path": "content/img/exe_powered_logo.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 878
+    },
+    {
+      "path": "content/resources/imagens/catalogo.jpg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 172323
+    },
+    {
+      "path": "content/resources/imagens/computacao.jpg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 234869
+    },
+    {
+      "path": "idevices/form/exequexthits.svg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 537
+    },
+    {
+      "path": "idevices/form/exequextrerrors.svg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 859
+    },
+    {
+      "path": "idevices/form/exequextsq.svg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1314
+    },
+    {
+      "path": "idevices/form/form.css",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 7705
+    },
+    {
+      "path": "idevices/form/form.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 51
+    },
+    {
+      "path": "idevices/form/form.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 83363
+    },
+    {
+      "path": "idevices/form/formnext.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 743
+    },
+    {
+      "path": "idevices/form/formnextd.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 655
+    },
+    {
+      "path": "idevices/form/formprevious.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 706
+    },
+    {
+      "path": "idevices/form/formpreviousd.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 646
+    },
+    {
+      "path": "idevices/form/frmhidesuggestion.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 951
+    },
+    {
+      "path": "idevices/form/frmshowsuggestion.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 549
+    },
+    {
+      "path": "idevices/text/exequextsq.svg",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1314
+    },
+    {
+      "path": "idevices/text/text.css",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 342
+    },
+    {
+      "path": "idevices/text/text.html",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 52
+    },
+    {
+      "path": "idevices/text/text.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 8211
+    },
+    {
+      "path": "libs/bootstrap/bootstrap.bundle.min.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 80695
+    },
+    {
+      "path": "libs/bootstrap/bootstrap.min.css",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 231973
+    },
+    {
+      "path": "libs/jquery/jquery.min.js",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 87533
+    },
+    {
+      "path": "theme/icons/activity.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 875
+    },
+    {
+      "path": "theme/icons/agreement.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 895
+    },
+    {
+      "path": "theme/icons/alert.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 784
+    },
+    {
+      "path": "theme/icons/arts.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1206
+    },
+    {
+      "path": "theme/icons/ask.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1022
+    },
+    {
+      "path": "theme/icons/book.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1608
+    },
+    {
+      "path": "theme/icons/calculate.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 837
+    },
+    {
+      "path": "theme/icons/case.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 910
+    },
+    {
+      "path": "theme/icons/chrono.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 748
+    },
+    {
+      "path": "theme/icons/collaborative.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1006
+    },
+    {
+      "path": "theme/icons/competencies.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 944
+    },
+    {
+      "path": "theme/icons/diary.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1131
+    },
+    {
+      "path": "theme/icons/diary_alt.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1329
+    },
+    {
+      "path": "theme/icons/discuss.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 755
+    },
+    {
+      "path": "theme/icons/download.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 407
+    },
+    {
+      "path": "theme/icons/draw.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 939
+    },
+    {
+      "path": "theme/icons/english.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1258
+    },
+    {
+      "path": "theme/icons/experiment.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1062
+    },
+    {
+      "path": "theme/icons/explore.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1244
+    },
+    {
+      "path": "theme/icons/file.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1063
+    },
+    {
+      "path": "theme/icons/gallery.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 752
+    },
+    {
+      "path": "theme/icons/geography.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1207
+    },
+    {
+      "path": "theme/icons/guide.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1247
+    },
+    {
+      "path": "theme/icons/history.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 860
+    },
+    {
+      "path": "theme/icons/info.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 842
+    },
+    {
+      "path": "theme/icons/interactive.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 896
+    },
+    {
+      "path": "theme/icons/letters.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1016
+    },
+    {
+      "path": "theme/icons/listen.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1058
+    },
+    {
+      "path": "theme/icons/math.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 962
+    },
+    {
+      "path": "theme/icons/music.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 843
+    },
+    {
+      "path": "theme/icons/nature.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 902
+    },
+    {
+      "path": "theme/icons/objectives.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1298
+    },
+    {
+      "path": "theme/icons/observe.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1131
+    },
+    {
+      "path": "theme/icons/passport.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1258
+    },
+    {
+      "path": "theme/icons/perform.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 945
+    },
+    {
+      "path": "theme/icons/piece.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1536
+    },
+    {
+      "path": "theme/icons/pieces.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 397
+    },
+    {
+      "path": "theme/icons/play.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1231
+    },
+    {
+      "path": "theme/icons/present.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 879
+    },
+    {
+      "path": "theme/icons/reflection.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 967
+    },
+    {
+      "path": "theme/icons/roadmap.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 982
+    },
+    {
+      "path": "theme/icons/share.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 865
+    },
+    {
+      "path": "theme/icons/sport.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 749
+    },
+    {
+      "path": "theme/icons/start.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 949
+    },
+    {
+      "path": "theme/icons/stop.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 750
+    },
+    {
+      "path": "theme/icons/suitcase.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 449
+    },
+    {
+      "path": "theme/icons/technology.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1022
+    },
+    {
+      "path": "theme/icons/think.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 943
+    },
+    {
+      "path": "theme/icons/think_alt.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 918
+    },
+    {
+      "path": "theme/icons/video.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 609
+    },
+    {
+      "path": "theme/img/icons.png",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1861
+    },
+    {
+      "path": "theme/img/licenses.gif",
+      "status": 200,
+      "same_bytes": true,
+      "bytes": 1916
+    }
+  ],
+  "elpx": {
+    "DTD": "valid",
+    "pages": 5,
+    "components": 10,
+    "photos_embedded": true,
+    "actual_screenshot": true
+  }
+}
