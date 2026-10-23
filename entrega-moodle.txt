@@ -1,0 +1,35 @@
+ETIVIDADE 3 — NÃO BASTA ESTAR LIGADO
+Fabio Eidi Ara | ELFD 2026/2027 | Universidade de Lisboa
+
+TEXTO PREPARADO PARA COLAR NO CAMPO “TEXTO ONLINE”
+
+Não basta estar ligado — Uma experiência sobre gerações, redes e aprendizagem digital.
+
+Recurso educativo digital com cinco etapas, dirigido a professores, formadores e estudantes adultos. Distingue nativos e imigrantes digitais com contextualização crítica, apresenta o conectivismo e propõe seis práticas educativas. As atividades permitem escolher evidências, classificar afirmações, estabelecer e rever conexões e aplicar critérios a uma atividade de aprendizagem.
+
+Endereço público:
+https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/
+
+Ferramenta de autoria: eXeLearning online 4.0.5, com formulários e feedback nativos e componentes HTML/SVG/JavaScript.
+
+Projeto editável, exportação web, PDF de consulta, fontes e créditos:
+https://github.com/fabio-ara/elfd-etividade3-nao-basta-estar-ligado
+
+Autoria: Fabio Eidi Ara. Concepção e implementação assistidas pelo Codex; revisão acadêmica do autor. Referências e créditos disponíveis no próprio recurso, na etapa 5.
+
+PASSO PENDENTE — SOMENTE O AUTOR
+
+Após avaliar o recurso, acessar:
+https://elearning.ulisboa.pt/mod/assign/view.php?id=616394
+
+Selecionar “Adicionar trabalho”/“Adicionar submissão”, colar o texto acima no campo Texto online e salvar. Se a interface oferecer uma etapa posterior de envio definitivo/declaração, concluí-la somente após revisão. Conferir o estado efetivo de submissão no Moodle; não confundir rascunho com entrega.
+
+O formulário também admite um arquivo (máximo observado: 250 MB), mas o endereço público atende ao pedido de disponibilização online. Se optar por arquivo, o ELPX ou PDF estão no repositório; não substituir o endereço pelo caminho local.
+
+PRAZO VERIFICADO
+
+O espaço atual de submissão indica 23/10/2026 às 19h59 no fuso exibido pela conta (São Paulo), equivalente a 23h59 de Lisboa. O enunciado ainda contém a data anterior de 18/10. O endereço atual da entrega é id=616394; não usar o link antigo do enunciado.
+
+O enunciado pede cerca de cinco páginas/ecrãs; um descritor da rubrica menciona “+ de 5”. Foram preservados exatamente cinco ecrãs conforme o pedido do autor e a estrutura da atividade.
+
+Nenhum texto, arquivo ou rascunho foi salvo ou enviado pelo agente no Moodle. A publicação pública não constitui submissão acadêmica. O autor reservou expressamente para si a avaliação e o envio manual.

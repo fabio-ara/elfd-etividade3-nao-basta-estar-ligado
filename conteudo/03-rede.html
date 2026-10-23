@@ -1,0 +1,26 @@
+<div class="red" data-stage="3">
+  <p class="eyebrow">03 / Aprender numa rede</p>
+  <h1>As ligações precisam<br>de fazer sentido.</h1>
+  <p class="lead">Uma turma quer decidir se deve substituir todas as leituras por vídeos curtos. Onde procurar conhecimento para fundamentar essa decisão?</p>
+  <p>Para Siemens (2004/2005), o <strong>conectivismo</strong> entende a aprendizagem como um processo de estabelecer e manter conexões entre pessoas, ideias e fontes especializadas. Parte do conhecimento pode estar distribuída por organizações e dispositivos, como uma base de dados.</p>
+  <p>A diversidade de perspectivas, a capacidade de encontrar conhecimento e a atualização das conexões importam. <strong>Decidir o que aprender e rever uma decisão também fazem parte de aprender.</strong> Isso exige distinguir informação relevante e confiável de informação inadequada.</p>
+  <section class="interaction" aria-labelledby="rede-title">
+    <div class="interaction-heading"><div><p class="eyebrow">Laboratório / conectar → avaliar → rever</p><h2 id="rede-title">Construa uma rede de investigação</h2></div><span id="network-phase" class="tag">Primeira decisão</span></div>
+    <p id="network-instructions">Ligue o estudante a <strong>três fontes</strong>. Cada botão revela a contribuição e o limite de uma conexão. Não existe uma única rede ideal.</p>
+    <p class="small-note">Simulação didática: pessoas, documentos e datas desta rede são fictícios. Os nós não são resultados científicos sobre vídeos.</p>
+    <div class="network" aria-label="Rede de aprendizagem. Os cinco botões alternam as ligações ao estudante.">
+      <svg viewBox="0 0 600 340" preserveAspectRatio="none" aria-hidden="true" focusable="false"><g id="connections"><path data-edge="professor" d="M300 165 L105 65"/><path data-edge="colegas" d="M300 165 L495 65"/><path data-edge="artigo" d="M300 165 L85 245"/><path data-edge="comunidade" d="M300 165 L300 295"/><path data-edge="base" d="M300 165 L515 245"/></g></svg>
+      <div class="node student"><span>Quem investiga</span><strong>Estudante</strong><small>Perguntar · sintetizar · decidir</small></div>
+      <button type="button" class="node professor" data-node="professor" aria-pressed="false"><small>Mediação</small><strong>Professor</strong><span>Define critérios</span></button>
+      <button type="button" class="node colegas" data-node="colegas" aria-pressed="false"><small>Outros olhares</small><strong>Colegas</strong><span>Comparam experiências</span></button>
+      <button type="button" class="node artigo" data-node="artigo" aria-pressed="false"><small>Evidência delimitada</small><strong>Artigo científico</strong><span>Um estudo de 2016</span></button>
+      <button type="button" class="node comunidade" data-node="comunidade" aria-pressed="false"><small>Conhecimento situado</small><strong>Comunidade de prática</strong><span>Relata aplicações</span></button>
+      <button type="button" class="node base" data-node="base" aria-pressed="false"><small>Pesquisa e atualização</small><strong>Base de dados</strong><span>Localiza outros estudos</span></button>
+    </div>
+    <p id="node-insight" class="node-insight" role="status">Escolha uma conexão para examinar o que ela oferece.</p>
+    <div class="decision-tools"><p id="network-count" role="status">0 de 3 conexões selecionadas</p><button type="button" id="evaluate-network">Examinar a minha rede</button></div>
+    <div id="network-feedback" class="feedback" role="status" hidden></div>
+    <div id="network-update" class="update-panel" hidden><p class="eyebrow">A informação mudou</p><h3>O que você faria agora?</h3><p>Uma nova busca localizou uma revisão de 2026: os resultados variam conforme os objetivos e as condições de acesso. O artigo de 2016 estudava apenas uma turma com boa ligação à internet. A decisão inicial já não pode ser generalizada.</p><p>Reveja as ligações acima para incluir uma forma de atualizar a evidência e uma perspectiva humana sobre o contexto. Você pode manter uma conexão se justificar o seu papel.</p><label for="network-reason">Como fundamentar a revisão?</label><select id="network-reason"><option value="">Escolha uma justificação</option><option value="popular">Dar prioridade à fonte mais partilhada</option><option value="atualizar">Confrontar a nova evidência com os objetivos e as condições da turma</option><option value="novo">Substituir tudo pela fonte mais recente, sem examinar o método</option></select><button type="button" id="revise-network">Reavaliar a decisão</button><div id="revision-feedback" class="feedback" role="status" hidden></div></div>
+  </section>
+  <p class="source-note">Interação concebida para este recurso a partir de <a href="https://www.itdl.org/Journal/Jan_05/article01.htm">Siemens (2005), secções «Connectivism» e «Conclusion»</a>. Mais ligações não equivalem, por si só, a melhor aprendizagem.</p>
+</div>
