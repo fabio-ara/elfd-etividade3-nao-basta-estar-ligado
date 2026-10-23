@@ -52,8 +52,8 @@
     // Observa apenas esta página; não transmite escolhas a qualquer serviço.
     function enhanceForms(){
       document.querySelectorAll('.FormView_question').forEach((question,i)=>{
-        question.removeAttribute('draggable');question.setAttribute('role','group');
-        const base=question.querySelector('.FormViewContainer');if(base){const p=base.querySelector('p');if(p){p.id=p.id||'pergunta-'+i;question.setAttribute('aria-labelledby',p.id);}}
+        question.removeAttribute('draggable');question.removeAttribute('role');question.removeAttribute('aria-labelledby');
+        const base=question.querySelector('.FormViewContainer');if(base){const p=base.querySelector('p');if(p){p.id=p.id||'pergunta-'+i;base.setAttribute('role','group');base.setAttribute('aria-labelledby',p.id);}}
       });
       document.querySelectorAll('.FormViewContainer_selection [title], .FormView_question .help-icon[title]').forEach(e=>e.setAttribute('title','Seleção com várias respostas possíveis'));
       document.querySelectorAll('.form-feedback-message').forEach(f=>{f.setAttribute('role','status');f.setAttribute('aria-live','polite');});
