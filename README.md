@@ -2,9 +2,13 @@
 
 Recurso educativo de Fabio Eidi Ara para E-learning e Formação a Distância, 2026/2027, Mestrado em Educação e Tecnologias Digitais, Instituto de Educação, Universidade de Lisboa. Módulo 2, Etividade 3.
 
-## Revisão local
+## Versão revista publicada
 
-Esta revisão atualiza a escrita, as atividades, a rede e a apresentação. **Não foi publicada nem submetida no Moodle.** O endereço público da versão anterior permanece inalterado e não representa esta revisão.
+Esta revisão atualiza a escrita, as atividades, a rede e a apresentação. Foi publicada no GitHub Pages em 23 de outubro de 2026, com autorização do autor, e verificada pelo endereço público:
+
+**[Como aprendemos com a tecnologia?](https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/)**
+
+O site público apresenta esta revisão. Não houve carregamento nem submissão no Moodle; a entrega será realizada manualmente pelo autor. O texto preparado encontra-se em `entrega-moodle.txt`.
 
 Para abrir a versão revista, execute na raiz:
 
@@ -55,6 +59,8 @@ Para reconstruir a partir dos ficheiros de origem:
 3. Exporte pelo eXeLearning para atualizar os dois ficheiros finais e descompacte o website.
 4. Execute `python scripts/gerar-pdf.py` para atualizar a consulta (ReportLab e fontes Arial/Georgia do Windows).
 5. Execute `python scripts/validar-publicacao.py` com o servidor local ativo. Apesar do nome histórico, este verificador usa apenas o endereço local por omissão.
+
+Para conferir a publicação, execute `python scripts/verificar-publicacao-web.py`. O script consulta o endereço público sem credenciais e compara os bytes dos 88 recursos com a versão do website guardada no Git. As evidências desta publicação encontram-se em `validacao/publicacao-revisada-http.json` e `validacao/publicacao-revisada-navegador.json`.
 
 Documentação: [formato ELPX](https://exelearning.github.io/exelearning/elpx-format/) e [guia oficial de geração](https://exelearning.github.io/exelearning/elpx-format/ai-generation/). A entrada usa o contrato ODE 2.0 e um modelo oficial, seguido de importação e exportação no editor.
 

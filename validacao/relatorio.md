@@ -1,4 +1,4 @@
-# Validação da revisão local
+# Validação do recurso revisto
 
 Revisão realizada em 23 de outubro de 2026. O enunciado original foi consultado no Moodle. Foram utilizados os materiais de pesquisa preservados no projeto, as fontes primárias e o eXeLearning online 4.0.5.
 
@@ -10,7 +10,7 @@ Ana tem 31 anos e Estevão tem 65 anos. Os casos observam ações e condições 
 
 A fotografia do ENIAC mantém legenda objetiva, texto alternativo e crédito completo. A fotografia do catálogo foi retirada. Não foram utilizadas imagens geradas por IA.
 
-## Testes executados
+## Testes executados na revisão local
 
 | Verificação | Evidência e resultado |
 |---|---|
@@ -42,4 +42,14 @@ Não foram realizados testes com leitores de ecrã nem dispositivos físicos. A 
 
 ## Publicação e submissão
 
-Esta revisão permanece local. Não houve push, alteração da publicação externa, carregamento ou submissão no Moodle. O endereço público anterior continua a apresentar a versão anterior. A avaliação do recurso e qualquer submissão ficam a cargo do autor, conforme a sua instrução.
+A publicação foi autorizada pelo autor após a revisão e concluída em 23 de outubro de 2026. Endereço: https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/.
+
+O GitHub Pages publicou o commit `7c5834ea09333661faea11a02c4c90a9d07193a6`. A execução [40026774444](https://github.com/fabio-ara/elfd-etividade3-nao-basta-estar-ligado/actions/runs/40026774444) terminou com sucesso. Uma consulta HTTP independente, sem credenciais, confirmou resposta 200 e igualdade com os bytes no Git para os 88 recursos do website. O ficheiro de controlo `.nojekyll` não integra esta contagem, pois não é um recurso utilizado pelas páginas.
+
+No endereço público foram abertas as cinco páginas. Foram exercitadas respostas corretas e incorretas nos dois formulários e na classificação, o botão de explicação do trabalho de grupo e a seleção da rede. Na rede foram confirmados o limite de três fontes, a tentativa de quarta seleção, a remoção individual da explicação, a substituição de uma fonte e a atualização da comparação. Espaço e Enter alteraram a seleção pelo teclado, com foco visível e preservado.
+
+As cinco páginas foram verificadas a 390 × 844, sem deslocamento horizontal nem imagens visíveis por carregar. O computador foi verificado a 1365 × 900. As capturas nativas do Chrome DevTools permitiram inspeção visual da abertura, dos conceitos, do feedback do grupo, da rede nas duas dimensões e do último ecrã em móvel. O acesso ocorreu num contexto isolado sem autenticação. A página interna da rede foi atualizada sem cache e continuou funcional. As consultas da consola na rede não apresentaram erros ou avisos.
+
+Evidências adicionais: `publicacao-revisada-http.json` e `publicacao-revisada-navegador.json`. Os testes públicos confirmam a publicação da mesma revisão anteriormente validada; não substituem os limites já descritos para tecnologias de apoio e dispositivos físicos.
+
+Não houve carregamento, gravação de rascunho ou submissão no Moodle. A avaliação do recurso e a entrega ficam a cargo do autor, conforme a sua instrução.

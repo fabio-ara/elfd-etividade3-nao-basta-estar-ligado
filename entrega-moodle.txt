@@ -1,19 +1,24 @@
-Revisão local: Como aprendemos com a tecnologia?
-Autor: Fabio Eidi Ara
-E-learning e Formação a Distância, Etividade 3, 2026/2027
+Texto preparado para o campo "Texto online" do Moodle:
 
-Esta revisão está preparada para avaliação do autor nos ficheiros locais:
-editavel/nao-basta-estar-ligado.elpx
-editavel/website-exportado.zip
-website/index.html
-output/pdf/nao-basta-estar-ligado-consulta.pdf
+Apresento o recurso educativo digital "Como aprendemos com a tecnologia?", desenvolvido no eXeLearning para a Etividade 3 de E-learning e Formação a Distância, 2026/2027.
 
-Não foi publicada nem submetida no Moodle. Por instrução do autor, a publicação externa ficou fora desta revisão, e a submissão será manual.
-
-O endereço público anteriormente publicado mantém a versão anterior:
+Acesso ao recurso:
 https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/
 
-Esse endereço não deve ser apresentado como acesso à versão revista enquanto esta não for publicada. Avalie primeiro os ficheiros locais e o relatório validacao/relatorio.md.
+Autor: Fabio Eidi Ara
 
-Espaço de entrega institucional:
+Informações para a entrega manual:
+
+O endereço público apresenta a versão revista e foi verificado em 23 de outubro de 2026. O recurso tem cinco páginas e pode ser utilizado sem iniciar sessão.
+
+Espaço de entrega:
 https://elearning.ulisboa.pt/mod/assign/view.php?id=616394
+
+O PDF de consulta pode ser anexado como complemento em "Submissão de ficheiros":
+output/pdf/nao-basta-estar-ligado-consulta.pdf
+
+O projeto editável e a exportação completa estão conservados em:
+editavel/nao-basta-estar-ligado.elpx
+editavel/website-exportado.zip
+
+Não foi realizada qualquer submissão no Moodle. Depois de guardar o texto, confira o estado e conclua pessoalmente a confirmação de envio, caso a página ainda indique rascunho.

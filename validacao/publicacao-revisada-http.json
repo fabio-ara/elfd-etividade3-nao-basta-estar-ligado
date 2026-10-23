@@ -1,0 +1,717 @@
+{
+  "checked_at": "2026-10-23T21:27:11.417527+00:00",
+  "base": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/",
+  "commit": "7c5834ea09333661faea11a02c4c90a9d07193a6",
+  "files_checked": 88,
+  "authentication": "sem credenciais",
+  "comparison": "bytes públicos iguais aos ficheiros website no Git",
+  "excluded": [
+    ".nojekyll: controlo da publicação, não é um recurso utilizado pelas páginas"
+  ],
+  "files": [
+    {
+      "path": "content.xml",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/content.xml",
+      "bytes": 662840,
+      "sha256": "98d6f624c42c655a9f9cbbb42b2e1fe91a69c858ba545afbe830a2187702fb26",
+      "same_git_bytes": true
+    },
+    {
+      "path": "content/css/base.css",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/content/css/base.css",
+      "bytes": 14006,
+      "sha256": "de325395d9f5b0c54cbac5536c02d49ba2f7ce7be1ca27cd54aba4730c2bae7e",
+      "same_git_bytes": true
+    },
+    {
+      "path": "content/img/exe_powered_logo.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/content/img/exe_powered_logo.png",
+      "bytes": 878,
+      "sha256": "03ad8db5be5304b2fd1c8c912d0b1f113dc449575bbbe6fb65c08baddfa4d038",
+      "same_git_bytes": true
+    },
+    {
+      "path": "content/resources/imagens/computacao.jpg",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/content/resources/imagens/computacao.jpg",
+      "bytes": 234869,
+      "sha256": "3cbf3d40709c81046bfbf5a9443097c08e07650c66e73b1d599c7f473c5e68a3",
+      "same_git_bytes": true
+    },
+    {
+      "path": "html/aprender-em-rede.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/aprender-em-rede.html",
+      "bytes": 34498,
+      "sha256": "799a45cd0cf1585ac880f73dff619ea70ad51a60cdcb08766348d1f3d24a23a4",
+      "same_git_bytes": true
+    },
+    {
+      "path": "html/atencao-e-inclusao.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/atencao-e-inclusao.html",
+      "bytes": 40031,
+      "sha256": "7492ff26bdc0739cc1da3b49b7d0649d35e2194d029574af956ef541f86b69d4",
+      "same_git_bytes": true
+    },
+    {
+      "path": "html/criar-e-colaborar.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/criar-e-colaborar.html",
+      "bytes": 32831,
+      "sha256": "1110f5eb4873b41859b71a62bc71b66b396fce1436833fa4e7541e3910a7386c",
+      "same_git_bytes": true
+    },
+    {
+      "path": "html/geracoes-digitais.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/geracoes-digitais.html",
+      "bytes": 34219,
+      "sha256": "a3fa8b50a0590167dc0224f9b9feda3a250380e31c4c812f5646b8ac1ee9a072",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/exequexthits.svg",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/exequexthits.svg",
+      "bytes": 537,
+      "sha256": "da4091f1da1d121d300457c0724b8ceb33b12c1f8c5c3fd3c9dd3acd2cc99002",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/exequextrerrors.svg",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/exequextrerrors.svg",
+      "bytes": 859,
+      "sha256": "fcae59c5b820aea3f324ba94c4bb0c57ebb9b2e9e5975c661f23b5472e9bef0f",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/exequextsq.svg",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/exequextsq.svg",
+      "bytes": 1314,
+      "sha256": "38980ac2cb0f30933b798ed6300656a9a4a1dcdc55f491d036627aafdef2834f",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/form.css",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/form.css",
+      "bytes": 7705,
+      "sha256": "0ce3741385c9ecb959b9c4606af0413417289e227328da36f515f8691858380b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/form.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/form.html",
+      "bytes": 51,
+      "sha256": "59c8c9233eb4e39ca0ac37218a119864700c1c86d5c39f9d422f63ff2b2ed693",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/form.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/form.js",
+      "bytes": 83363,
+      "sha256": "b26889a8228759e5b7d7a22753eaed42b902982f1bd101ac85be16079806fb62",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/formnext.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/formnext.png",
+      "bytes": 743,
+      "sha256": "93ff16a2994877b1248cedba35bda2bcad779e47f765229c471b1b71d6a7fc7b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/formnextd.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/formnextd.png",
+      "bytes": 655,
+      "sha256": "9253b02600e92aebb779eb3a8182e6912db044217609359a8637568e05c44244",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/formprevious.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/formprevious.png",
+      "bytes": 706,
+      "sha256": "5014f3c70f5dd4143cc1bf495e79ba4591f2f4961e4aa1b1d3802fbd9ca52cf2",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/formpreviousd.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/formpreviousd.png",
+      "bytes": 646,
+      "sha256": "9ebff6e0681f19218cb6d97a8c3e18a2526cf24170b65b8ac9cd17243ed4073a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/frmhidesuggestion.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/frmhidesuggestion.png",
+      "bytes": 951,
+      "sha256": "7b539e04b4f10762e8c67f56f9402811ac514d6d5b500f98fe1d634f25b81527",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/form/frmshowsuggestion.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/form/frmshowsuggestion.png",
+      "bytes": 549,
+      "sha256": "a4ba223a3824cc422ef8c23a87157c2893bd516b4675d7534c96b743cf267ae7",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/text/exequextsq.svg",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/text/exequextsq.svg",
+      "bytes": 1314,
+      "sha256": "38980ac2cb0f30933b798ed6300656a9a4a1dcdc55f491d036627aafdef2834f",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/text/text.css",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/text/text.css",
+      "bytes": 342,
+      "sha256": "403c3d882ea8b2c71600ebd5c543a8a77bd32d241b9075ee0abe229df68e76c2",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/text/text.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/text/text.html",
+      "bytes": 52,
+      "sha256": "91a9af2ffbc1dd9932529671ddbea7b6ed292075563af8a838fd6b7cbb69d853",
+      "same_git_bytes": true
+    },
+    {
+      "path": "idevices/text/text.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/idevices/text/text.js",
+      "bytes": 8211,
+      "sha256": "180adc1036ea89419c33088f1ec9d3c2d3341125753de1a24b235ae9b3263f86",
+      "same_git_bytes": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/index.html",
+      "bytes": 35254,
+      "sha256": "4a8c9303196e7f21b44d86d929982721a691ecb4155098522c5b0a9786fe2e2f",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/bootstrap/bootstrap.bundle.min.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/bootstrap/bootstrap.bundle.min.js",
+      "bytes": 80695,
+      "sha256": "fc195bfff30c0a69a84e0a90faa2f91f1352d3e1cbfe57cb3f4e64bf35f3738c",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/bootstrap/bootstrap.min.css",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/bootstrap/bootstrap.min.css",
+      "bytes": 231973,
+      "sha256": "c7b0306ae2a6b790eb1939643ef5bae37f4788bfb93e3775768784c4c742c773",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/common.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/common.js",
+      "bytes": 169571,
+      "sha256": "f1bf881419c8c6c993a16e3d76a5cbc7b3dd7c1e09d5cc1c3c71c6ebcfd57c08",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/common_i18n.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/common_i18n.js",
+      "bytes": 3429,
+      "sha256": "0d4c0a146e90627b1d29977a6b7689fbc04681aa02838d26c195be56881467c8",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/exe_export.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/exe_export.js",
+      "bytes": 42197,
+      "sha256": "fee17afc8f6883468fae60eece94bd3b90182caa75ab68650318150e55f60ca0",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/favicon.ico",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/favicon.ico",
+      "bytes": 2889,
+      "sha256": "bee8c9fbb84fcb45bf0382a4b35e00d8724b05f5a6f23fdef6d4292549f24107",
+      "same_git_bytes": true
+    },
+    {
+      "path": "libs/jquery/jquery.min.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/libs/jquery/jquery.min.js",
+      "bytes": 87533,
+      "sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/config.xml",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/config.xml",
+      "bytes": 882,
+      "sha256": "fd068ead434b5600cb3337629a467b9ebe5a463a723c5ca872fc9e92b95f531e",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/activity.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/activity.png",
+      "bytes": 875,
+      "sha256": "3d8366d5a45f753151b16aaf2e8abafd0720d42d8d716d183cb300f6a09bcaf4",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/agreement.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/agreement.png",
+      "bytes": 895,
+      "sha256": "fecda56657caaec431b21f57a973a4fcd49be2087bf96bf15d5929497b18ac0b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/alert.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/alert.png",
+      "bytes": 784,
+      "sha256": "1d59193c5b6ca57048b0d4e05bf806fd05adcea7c9ac6f6948075db86bb24b28",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/arts.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/arts.png",
+      "bytes": 1206,
+      "sha256": "c998c7aaf5972c2ede438f0584f9d3b72ba3959aa0648c866f3ef9ffcdf8b136",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/ask.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/ask.png",
+      "bytes": 1022,
+      "sha256": "d3021fe043abf99574ff709fa97d7d9b2324aeb6eb7d95408b7c56bc3893baea",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/book.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/book.png",
+      "bytes": 1608,
+      "sha256": "2be20abea33b20afb6f969433872f1425a9db88d55bbcb8096fd77c89f2e7a3b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/calculate.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/calculate.png",
+      "bytes": 837,
+      "sha256": "61f1837c239a03e543d8d57fb60a779c277b41a5248c8e31aa58b4bc133ced0e",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/case.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/case.png",
+      "bytes": 910,
+      "sha256": "d62436ab7dc76cd547871cbd2b4e14ad41775ad55f3f6bf011135555ce14db0b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/chrono.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/chrono.png",
+      "bytes": 748,
+      "sha256": "0a5fe1d8a59296d81a0842840268c4f69354c4c5df8f105bdc3b43e2d7942edb",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/collaborative.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/collaborative.png",
+      "bytes": 1006,
+      "sha256": "de11d7d1b283c51d9daa651db1f8dba3bb697137baff10bf52733cfe923da044",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/competencies.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/competencies.png",
+      "bytes": 944,
+      "sha256": "0819fdf46cea44ded8c665cbaac5a558ecd10382cf833e809d1414d47a5bb681",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/diary.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/diary.png",
+      "bytes": 1131,
+      "sha256": "decc1d903a15c6e7cf2fe0140407b9999a8303e212e1ac0b89b910eeaf83d54a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/diary_alt.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/diary_alt.png",
+      "bytes": 1329,
+      "sha256": "0b7fb25947f77fffcb3e0e72d748f1b6c372ca9b7f11f1dbda7ea545e7df7dff",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/discuss.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/discuss.png",
+      "bytes": 755,
+      "sha256": "4f76324b8f1aa364bb328d083425ad75b29aefbd08331c75874791347bc6e6f7",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/download.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/download.png",
+      "bytes": 407,
+      "sha256": "007030e631953cfe120a8b77cd710a2d04ab17b3bcbcfb12fb2b488f705976d9",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/draw.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/draw.png",
+      "bytes": 939,
+      "sha256": "85d02038bf0a0abcb8e591b31d0d085795856b4602978c14f105f5c78d68014b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/english.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/english.png",
+      "bytes": 1258,
+      "sha256": "f8948cddf12b75c6a38f04d6e805118af509e14cad74e4b7ae47f54f47eb1e8a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/experiment.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/experiment.png",
+      "bytes": 1062,
+      "sha256": "f441f6cf45ff6a2ce013c068c46d35122703e1ee24d4664355083047a58f04a1",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/explore.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/explore.png",
+      "bytes": 1244,
+      "sha256": "85dd38c3d5525923f7bc5cbf9d4dfb1da553c08ebe1a8152b44447a27fea4c3a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/file.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/file.png",
+      "bytes": 1063,
+      "sha256": "1d16dc34e0dfae68c11c144ad2121708a1f4eab213820187f76c4cea29960f1b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/gallery.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/gallery.png",
+      "bytes": 752,
+      "sha256": "542239aed579a0b0aef97dbb12ab56c1d4ad51e8c9917f96edac65fbcf8d52f3",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/geography.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/geography.png",
+      "bytes": 1207,
+      "sha256": "d50cbdf7728ac3903de896a6c60f20d7523b3e18661cdcba7c72f0ccae04cfa8",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/guide.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/guide.png",
+      "bytes": 1247,
+      "sha256": "e8af816b1be2cda90a47a414a5ac093a1850095c12fa8f2b9623a1c8e70df889",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/history.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/history.png",
+      "bytes": 860,
+      "sha256": "1de94bfa0dc1eccd89025905a31cc4b1daad0b06c195869d7675fc9769f0d089",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/info.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/info.png",
+      "bytes": 842,
+      "sha256": "cc36c897f6cacee3fb09dc55e7c5713f13603b617f5a444461dc9c3022151c1a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/interactive.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/interactive.png",
+      "bytes": 896,
+      "sha256": "6d7aad55c1b5107b16591570578db51f6211d5db38ff4163065a441a0cb4cdc3",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/letters.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/letters.png",
+      "bytes": 1016,
+      "sha256": "997b6fa75fc3e18aee9f6f288c42af158da722f681399d30ae5b9fecf4944b01",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/listen.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/listen.png",
+      "bytes": 1058,
+      "sha256": "9df829a14ec4057e28d5537a6cfd8a7599c018070ffb4fa7a4ede47011dc9324",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/math.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/math.png",
+      "bytes": 962,
+      "sha256": "4b6630cbb2516e670a57774cd38d065c19842d7cc274f0d61aa14a24b6a0dcd5",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/music.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/music.png",
+      "bytes": 843,
+      "sha256": "8246804287fae6a05e4c04799900963899b02790aaf4708150a452ddcb77771a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/nature.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/nature.png",
+      "bytes": 902,
+      "sha256": "b72fd088f293a2d182c8f1bbce449d78f738408ddfb2b296739210ce5e87faec",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/objectives.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/objectives.png",
+      "bytes": 1298,
+      "sha256": "aba666594d4404963133d41e35f21b443ee31e57d1e355baa67f0fc76affa3d9",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/observe.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/observe.png",
+      "bytes": 1131,
+      "sha256": "ad652c15777ad86133db1aa9b8a48baf51477093d56349a7263a611beb8fb756",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/passport.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/passport.png",
+      "bytes": 1258,
+      "sha256": "45bc98378b1406cd1b1e91556b8d5f2ddc46e877a1235244fe02d6cd9e530f49",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/perform.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/perform.png",
+      "bytes": 945,
+      "sha256": "0a687ddb303fef1ff6b679e14fe3bb43af1013073376cdb9d2a0d1e8a0b457cf",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/piece.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/piece.png",
+      "bytes": 1536,
+      "sha256": "3102cddf72de7f7e7092edcea3d9008843a29588b49e1471ad9c7d9486e0c29d",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/pieces.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/pieces.png",
+      "bytes": 397,
+      "sha256": "0e2dc1968c69160e42c74c06f23ba3fd913ac17f568fd4d8f30a7a0dbf684377",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/play.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/play.png",
+      "bytes": 1231,
+      "sha256": "eb79299cda69498651eddb4fef297fbe2ddd32b0a6913611cac27e0c0a686236",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/present.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/present.png",
+      "bytes": 879,
+      "sha256": "ad26b4dc94a689a593fcead03c80957fde4cf3bd0e63a74061d6016eb034bd8c",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/reflection.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/reflection.png",
+      "bytes": 967,
+      "sha256": "4a27c171bc0feb932fb094323d78ff3e8a233fc647fff68214cfb6fea8585839",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/roadmap.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/roadmap.png",
+      "bytes": 982,
+      "sha256": "6bf46ee21cb571b69836d2be1adc36cef128812d36304cf6f982679c283fcdd5",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/share.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/share.png",
+      "bytes": 865,
+      "sha256": "cf0843d1ee147c4cb2e7f7de1e64656a9bba15a8fb1130fc81be19572b2f062a",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/sport.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/sport.png",
+      "bytes": 749,
+      "sha256": "717c6bc5a542096d4bdc6f94fa4f337d4d2da9ccfe19280798647bcbf87f1bf9",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/start.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/start.png",
+      "bytes": 949,
+      "sha256": "55ba081c7821217b7eeb81e31166d9849e324bc26062ef6b39d545a9cdc021b3",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/stop.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/stop.png",
+      "bytes": 750,
+      "sha256": "ef86cb1610e60f2575722657e3155be2319279b1f1c4fd46932f5be564b9b038",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/suitcase.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/suitcase.png",
+      "bytes": 449,
+      "sha256": "be449f6ed85a0558ab8c9ee6e5521e0c73e47651f1f4fb1e9cae2d7222358f69",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/technology.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/technology.png",
+      "bytes": 1022,
+      "sha256": "c8281e11dac9e3648aef13d426898e57dc744ff769aab25ff6bf52f4480bbad6",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/think.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/think.png",
+      "bytes": 943,
+      "sha256": "087d215a2a35b3cebc3a80ce0475a08bd315ccf460b76c9e61b4e5334364208b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/think_alt.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/think_alt.png",
+      "bytes": 918,
+      "sha256": "a38839997a62083efae395fa8858d0bfdd84e31b28b7f464d135be9f99823c6b",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/icons/video.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/icons/video.png",
+      "bytes": 609,
+      "sha256": "0f772beb7bacb3242486e957130d4d76d06dd584888a6051cac9e27df95648f2",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/img/icons.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/img/icons.png",
+      "bytes": 1861,
+      "sha256": "9f0aa2a7aca579158678c9a379992049628bfe8d12ed1b530c35bc6f8d9442d0",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/img/licenses.gif",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/img/licenses.gif",
+      "bytes": 1916,
+      "sha256": "0ec5267ecf464c437ac59afd6d27efde9ec0977c938563d3f69f65473a7cbc28",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/screenshot.png",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/screenshot.png",
+      "bytes": 18948,
+      "sha256": "bc991eed86c3871a2143994d041413d132464f13f262ebbdad865b976babe433",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/style.css",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/style.css",
+      "bytes": 15873,
+      "sha256": "88d6f8c80e412e1d620956456dc04851e0766ec4ba6e83249a8ef208b2122062",
+      "same_git_bytes": true
+    },
+    {
+      "path": "theme/style.js",
+      "status": 200,
+      "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/theme/style.js",
+      "bytes": 5171,
+      "sha256": "7504ad37a8efd18d8a1fe966dad45bd87d6a5d31421e9fe1ab68785093b90ce6",
+      "same_git_bytes": true
+    }
+  ]
+}

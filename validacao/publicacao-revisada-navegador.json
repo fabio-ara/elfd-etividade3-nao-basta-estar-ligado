@@ -1,0 +1,256 @@
+{
+  "checked_at": "2026-10-23T21:30:38.744Z",
+  "scope": "Recurso publicado no GitHub Pages, contexto isolado sem autenticação",
+  "base": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/",
+  "deployment": "https://github.com/fabio-ara/elfd-etividade3-nao-basta-estar-ligado/actions/runs/40026774444",
+  "viewports": [
+    {
+      "width": 1365,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "touch": true
+    }
+  ],
+  "checks": [
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/",
+      "wrong": "Reveja as escolhas tendo em conta a origem da informação e as pesquisas que a sustentam.Procurar o estudoAjuda a perceber o que foi realmente investigado: que tarefas foram comparadas, quem participou e como se avaliou a aprendizagem.Dar mais peso a quem usa mais aplicaçõesA familiaridade com aplicações pode ajudar a utilizá-las. Para avaliar esta afirmação, é preciso examinar as pesquisas sobre a aprendizagem.Comparar pesquisasPermite verificar se outros trabalhos sustentam a afirmação e em que condições chegaram a resultados semelhantes ou diferentes.Confiar no número de partilhasAs partilhas mostram que uma publicação circulou. Para decidir se a informação é fiável, procure a sua origem e os resultados apresentados.Ana e Estevão têm idades e experiências digitais diferentes. A capacidade de avaliar esta informação observa-se na forma como procuram, comparam e interpretam as fontes. Kirschner e De Bruyckere (2017).",
+      "correct": "Procurar o estudo e comparar pesquisas permite examinar as razões apresentadas para a afirmação.Procurar o estudoAjuda a perceber o que foi realmente investigado: que tarefas foram comparadas, quem participou e como se avaliou a aprendizagem.Dar mais peso a quem usa mais aplicaçõesA familiaridade com aplicações pode ajudar a utilizá-las. Para avaliar esta afirmação, é preciso examinar as pesquisas sobre a aprendizagem.Comparar pesquisasPermite verificar se outros trabalhos sustentam a afirmação e em que condições chegaram a resultados semelhantes ou diferentes.Confiar no número de partilhasAs partilhas mostram que uma publicação circulou. Para decidir se a informação é fiável, procure a sua origem e os resultados apresentados.Ana e Estevão têm idades e experiências digitais diferentes. A capacidade de avaliar esta informação observa-se na forma como procuram, comparam e interpretam as fontes. Kirschner e De Bruyckere (2017).",
+      "pass": true,
+      "overflow": false,
+      "images": true,
+      "navCount": 5
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/geracoes-digitais.html",
+      "classification": [
+        {
+          "key": "a",
+          "wrong": "Considere o que a frase faz: recomenda uma ação, propõe uma relação a estudar ou questiona uma generalização. É uma sugestão para o ensino. Prensky propôs usar jogos digitais para trabalhar os conteúdos das aulas. Ao escolher um jogo, o professor precisa de verificar se as tarefas ajudam os estudantes a compreender esse conteúdo.",
+          "right": "É uma sugestão para o ensino. Prensky propôs usar jogos digitais para trabalhar os conteúdos das aulas. Ao escolher um jogo, o professor precisa de verificar se as tarefas ajudam os estudantes a compreender esse conteúdo.",
+          "pass": true
+        },
+        {
+          "key": "b",
+          "wrong": "Considere o que a frase faz: recomenda uma ação, propõe uma relação a estudar ou questiona uma generalização. É uma hipótese a investigar: sugere uma influência possível da experiência. Para a estudar, é necessário definir que experiências se comparam e observar como as pessoas aprendem. O argumento de Prensky sobre plasticidade cerebral não demonstrou as diferenças físicas que sugeria entre grupos.",
+          "right": "É uma hipótese a investigar: sugere uma influência possível da experiência. Para a estudar, é necessário definir que experiências se comparam e observar como as pessoas aprendem. O argumento de Prensky sobre plasticidade cerebral não demonstrou as diferenças físicas que sugeria entre grupos.",
+          "pass": true
+        },
+        {
+          "key": "c",
+          "wrong": "Considere o que a frase faz: recomenda uma ação, propõe uma relação a estudar ou questiona uma generalização. É uma crítica à divisão por gerações. Kirschner e De Bruyckere questionaram a ideia de uma geração com capacidades digitais uniformes. Observar as tarefas que cada pessoa realiza permite conhecer diferenças que a idade não esclarece.",
+          "right": "É uma crítica à divisão por gerações. Kirschner e De Bruyckere questionaram a ideia de uma geração com capacidades digitais uniformes. Observar as tarefas que cada pessoa realiza permite conhecer diferenças que a idade não esclarece.",
+          "pass": true
+        }
+      ],
+      "overflow": false,
+      "navCurrent": "Gerações digitais"
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/aprender-em-rede.html",
+      "three": {
+        "selected": [
+          "professor",
+          "colegas",
+          "artigo"
+        ],
+        "notes": [
+          "professor",
+          "colegas",
+          "artigo"
+        ],
+        "count": "3 de 3 fontes escolhidas",
+        "comparison": "O professor ajuda a definir o que se pretende aprender, os colegas descrevem as suas experiências e o artigo permite examinar como uma investigação avaliou a aprendizagem. Compare o conteúdo estudado, as atividades realizadas e a forma de avaliar a compreensão.A seguir, procure outra pesquisa sobre a mesma pergunta e verifique se os seus resultados se aplicam às condições descritas pelos colegas.",
+        "limit": ""
+      },
+      "fourth": {
+        "selected": [
+          "professor",
+          "colegas",
+          "artigo"
+        ],
+        "notes": [
+          "professor",
+          "colegas",
+          "artigo"
+        ],
+        "count": "3 de 3 fontes escolhidas",
+        "comparison": "O professor ajuda a definir o que se pretende aprender, os colegas descrevem as suas experiências e o artigo permite examinar como uma investigação avaliou a aprendizagem. Compare o conteúdo estudado, as atividades realizadas e a forma de avaliar a compreensão.A seguir, procure outra pesquisa sobre a mesma pergunta e verifique se os seus resultados se aplicam às condições descritas pelos colegas.",
+        "limit": "Já escolheu três fontes. Retire uma para acrescentar outra."
+      },
+      "removed": {
+        "selected": [
+          "professor",
+          "artigo"
+        ],
+        "notes": [
+          "professor",
+          "artigo"
+        ],
+        "count": "2 de 3 fontes escolhidas",
+        "comparison": "Escolha três fontes para comparar as suas contribuições.",
+        "limit": ""
+      },
+      "replaced": {
+        "selected": [
+          "professor",
+          "artigo",
+          "base"
+        ],
+        "notes": [
+          "professor",
+          "artigo",
+          "base"
+        ],
+        "count": "3 de 3 fontes escolhidas",
+        "comparison": "O professor ajuda a definir uma tarefa de aprendizagem, o artigo apresenta um estudo e a base permite encontrar pesquisas que o confirmem, completem ou questionem. Compare os métodos e os resultados dos trabalhos encontrados.Converse também com estudantes sobre as suas condições de acesso e dificuldades. Use essa informação para planear uma atividade que permita observar o que compreenderam.",
+        "limit": ""
+      },
+      "pass": true,
+      "overflow": false
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/aprender-em-rede.html",
+      "keyboard": {
+        "focus": "professor",
+        "selected": "true",
+        "outline": "rgb(168, 62, 37) solid 3px",
+        "focusVisible": true
+      },
+      "count": "3 de 3 fontes escolhidas"
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/criar-e-colaborar.html",
+      "feedback": [
+        {
+          "visible": true,
+          "text": "Organizem uma conversa sobre a primeira versão do vídeo. Cada participante pode identificar uma ideia que precisa de ser explicada melhor e propor uma alteração apoiada nas fontes consultadas. Depois, revejam o vídeo em conjunto e expliquem como as contribuições do grupo ajudaram a melhorar a resposta."
+        }
+      ],
+      "overflow": false,
+      "practices": 3
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/atencao-e-inclusao.html",
+      "result": [
+        {
+          "mask": 8,
+          "feedback": "Considere como cada medida ajuda a compreender o tema e a participar na atividade.Aceitar formatos acessíveis e uma entrega reservadaPermite participar com diferentes condições de acesso e protege os dados pessoais. Peça que cada estudante escolha os recursos que melhor explicam o tema e justifique essa escolha.Reservar tempo para consultar fontes e reverCria condições para ler com atenção, verificar a informação e melhorar a explicação. Acompanhe as fontes utilizadas e as alterações que os estudantes conseguem justificar.Pedir comentários aos colegasAjuda a confrontar interpretações antes da entrega. Oriente os comentários para a clareza das ideias e a sua fundamentação. Peça que a versão final mostre como foram consideradas essas contribuições.Aumentar o peso dos gostosOs gostos dependem da circulação da publicação e da reação do público. Para avaliar a aprendizagem, use critérios como a clareza da explicação, a qualidade das fontes e a justificação das revisões."
+        },
+        {
+          "mask": 7,
+          "feedback": "As três medidas escolhidas ajudam os estudantes a explicar o tema, rever o trabalho e participar com condições adequadas.Aceitar formatos acessíveis e uma entrega reservadaPermite participar com diferentes condições de acesso e protege os dados pessoais. Peça que cada estudante escolha os recursos que melhor explicam o tema e justifique essa escolha.Reservar tempo para consultar fontes e reverCria condições para ler com atenção, verificar a informação e melhorar a explicação. Acompanhe as fontes utilizadas e as alterações que os estudantes conseguem justificar.Pedir comentários aos colegasAjuda a confrontar interpretações antes da entrega. Oriente os comentários para a clareza das ideias e a sua fundamentação. Peça que a versão final mostre como foram consideradas essas contribuições.Aumentar o peso dos gostosOs gostos dependem da circulação da publicação e da reação do público. Para avaliar a aprendizagem, use critérios como a clareza da explicação, a qualidade das fontes e a justificação das revisões."
+        }
+      ],
+      "pass": true,
+      "practices": 3,
+      "referenceSections": [
+        {
+          "id": "referencias",
+          "found": true
+        },
+        {
+          "id": "autoria-fotografias",
+          "found": true
+        }
+      ],
+      "links": [
+        {
+          "text": "Artigo de Prensky",
+          "href": "https://doi.org/10.1108/10748120110424843"
+        },
+        {
+          "text": "PDF do texto na HES-SO",
+          "href": "https://cyberlearn.hes-so.ch/pluginfile.php/437878/mod_resource/content/0/prensky_-_digital_natives_digital_immigrants_-_part2.pdf"
+        },
+        {
+          "text": "Artigo de Siemens",
+          "href": "http://www.itdl.org/Journal/Jan_05/article01.htm"
+        },
+        {
+          "text": "Artigo de Kirschner e De Bruyckere",
+          "href": "https://doi.org/10.1016/j.tate.2017.06.001"
+        },
+        {
+          "text": "Vídeo da CBS com Gary Small",
+          "href": "https://www.youtube.com/watch?v=NhLnoZFCDBM"
+        },
+        {
+          "text": "Estudo de Small e colegas",
+          "href": "https://doi.org/10.1097/JGP.0b013e3181953a02"
+        },
+        {
+          "text": "Registo na PubMed",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/19155745/"
+        },
+        {
+          "text": "Creative Commons Atribuição e Partilha nos Mesmos Termos 4.0",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+        },
+        {
+          "text": "Ficheiro no Wikimedia Commons",
+          "href": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC_(full_resolution).jpg"
+        },
+        {
+          "text": "PD-USGov-Military-Army",
+          "href": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC_(full_resolution).jpg#Licensing"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/atencao-e-inclusao.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/aprender-em-rede.html",
+      "width": 390,
+      "overflow": false,
+      "selected": [
+        "professor",
+        "colegas",
+        "artigo"
+      ],
+      "notes": [
+        "professor",
+        "colegas",
+        "artigo"
+      ],
+      "count": "3 de 3 fontes escolhidas",
+      "comparison": "O professor ajuda a definir o que se pretende aprender, os colegas descrevem as suas experiências e o artigo permite examinar como uma investigação avaliou a aprendizagem. Compare o conteúdo estudado, as atividades realizadas e a forma de avaliar a compreensão.A seguir, procure outra pesquisa sobre a mesma pergunta e verifique se os seus resultados se aplicam às condições descritas pelos colegas.",
+      "loginRequired": false
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/index.html",
+      "width": 390,
+      "overflow": false,
+      "title": "Como aprendemos com a tecnologia?",
+      "navCount": 5,
+      "brokenImages": []
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/geracoes-digitais.html",
+      "width": 390,
+      "overflow": false,
+      "title": "Nativos e imigrantes digitais",
+      "navCount": 5,
+      "brokenImages": []
+    },
+    {
+      "page": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/criar-e-colaborar.html",
+      "width": 390,
+      "overflow": false,
+      "title": "Criar e aprender em grupo",
+      "navCount": 5,
+      "brokenImages": []
+    }
+  ],
+  "visual_inspection": "Capturas nativas do Chrome DevTools: abertura e gerações no computador, feedback do grupo, rede no computador e em móvel, início de Atenção e inclusão em móvel.",
+  "console": "Sem erros ou avisos nas consultas da rede.",
+  "limits": "Emulação móvel no Chrome; sem dispositivo físico ou leitor de ecrã. Testes locais mais extensos permanecem nas evidências anteriores."
+}
