@@ -12,8 +12,7 @@
 <script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <script src="../idevices/form/form.js"></script><link rel="stylesheet" href="../idevices/form/form.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
-<style id="red-editorial">
-/* Identidade editorial do RED. Componentes e navegação continuam no eXeLearning. */
+<style id="red-editorial">/* Identidade editorial do RED. Componentes e navegação continuam no eXeLearning. */
 :root{--paper:#f4f1e9;--ink:#1e3035;--muted:#526066;--line:#c4cbc6;--accent:#a83e25;--teal:#176761;--light:#fffefa;--wash:#e7ece6}
 html{scroll-behavior:smooth}
 body.exe-export{background:var(--paper)!important;color:var(--ink)!important;font-family:Arial,Helvetica,sans-serif!important;font-size:17px;line-height:1.65;margin:0}
@@ -135,10 +134,7 @@ body.exe-export #skipNav:focus{position:fixed!important;left:12px!important;top:
 @media(max-width:700px){body.exe-export .exe-content{padding:0 20px!important}.exe-export main.page{padding-top:20px!important}body.exe-export #siteNav{padding-top:22px!important}body.exe-export #siteNav ul{gap:4px!important}body.exe-export #siteNav a{font-size:10px!important;padding:9px 5px!important}body.exe-export #siteNav a:before{font-size:11px;margin-bottom:6px}.red .hero-grid{grid-template-columns:1fr;gap:22px;margin-bottom:30px}.red .archive-figure{transform:none}.red .archive-figure img{height:250px}.red h1{font-size:2.7rem}.red .display-title{font-size:3.7rem}.red .concept-pair{grid-template-columns:1fr;gap:12px}.red .interaction{padding:22px 17px}.red .interaction-heading{display:block}.red .interaction-heading .tag{margin-bottom:15px}.red .network{height:auto;display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.red .network svg{display:none}.red .node{position:static!important;transform:none;width:100%!important;min-height:90px!important}.red .node.student{grid-column:1/-1}.red .node.comunidade{grid-column:1/-1;order:6}.red .node-insight{min-height:0;margin-top:20px}.red .decision-tools{display:block}.red .decision-tools button{width:100%;margin-top:12px}.red .practice{grid-template-columns:35px 1fr;gap:12px}.red .practice-number{font-size:27px}.red .practice p{font-size:15px}.red .practice h2{font-size:1.5rem}.exe-export .exe-form-container{padding:20px 18px}.red .archive-inline{grid-template-columns:1fr}.red .archive-inline img{height:180px}.red .lead{font-size:1.12rem}.red .margin-note{padding:14px 17px}.exe-export .nav-buttons .nav-button{min-width:100px!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 @media print{#siteNav,.nav-buttons,#made-with-eXe,button,input[type=button],select{display:none!important}.exe-content{padding:0!important}.red h1{font-size:30pt}.red .hero-grid{display:block}.red .archive-figure{max-width:380px;transform:none}details>*{display:block}article.box{break-inside:avoid}.red .practice{break-inside:avoid}}
-
-</style>
-<script>
-/* Extensões didáticas locais: classificação e revisão de uma rede. Sem serviços externos. */
+</style><script>/* Extensões didáticas locais: classificação e revisão de uma rede. Sem serviços externos. */
 (() => {
   'use strict';
   const get = key => {try{return JSON.parse(sessionStorage.getItem('red-'+key));}catch{return null;}};
@@ -169,7 +165,7 @@ body.exe-export #skipNav:focus{position:fixed!important;left:12px!important;top:
       const notes={professor:'Professor: ajuda a definir a pergunta e os critérios de comparação. Limite: a sua autoridade não substitui evidência e pode deixar de fora experiências de estudantes.',colegas:'Colegas: revelam dificuldades e interpretações diferentes. Limite: experiências próximas podem repetir a mesma opinião; é preciso procurar contrapontos.',artigo:'Artigo científico: permite examinar método e resultados de um estudo. Limite: a amostra, a data e o contexto delimitam o que se pode concluir. Publicação científica não dispensa leitura crítica.',comunidade:'Comunidade de prática: reúne experiências de aplicação e condições de acesso. Limite: relatos úteis para o contexto não provam, por si só, um efeito geral.',base:'Base de dados: permite localizar outros estudos e atualizar a pesquisa. Limite: indexação e data recente não garantem qualidade; é necessário examinar cada trabalho.'};
       const selected=new Set(get('network')||[]);let examined=!!get('network-examined');
       const sync=()=>{document.querySelectorAll('[data-node]').forEach(button=>{const on=selected.has(button.dataset.node);button.setAttribute('aria-pressed',String(on));document.querySelector(`[data-edge="${button.dataset.node}"]`)?.classList.toggle('selected',on);});document.getElementById('network-count').textContent=examined?`${selected.size} conexões nesta revisão`:`${selected.size} de 3 conexões selecionadas`;put('network',[...selected]);};
-      document.querySelectorAll('[data-node]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.node;if(selected.has(key))selected.delete(key);else if(!examined&&selected.size>=3){show('node-insight','Para examinar a primeira decisão, mantenha três ligações. Desligue uma antes de escolher outra. '+notes[key]);return;}else selected.add(key);document.getElementById('node-insight').textContent=notes[key];document.getElementById('revision-feedback').hidden=true;sync();}));
+      document.querySelectorAll('[data-node]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.node;if(selected.has(key))selected.delete(key);else if(!examined&&selected.size>=3){show('node-insight','Para examinar a primeira decisão, mantenha três ligações. Desligue uma antes de escolher outra. '+notes[key]);return;}else selected.add(key);document.getElementById('node-insight').textContent=notes[key];document.getElementById('network-feedback').hidden=true;document.getElementById('revision-feedback').hidden=true;sync();}));
       const reveal=()=>{document.getElementById('network-update').hidden=false;document.getElementById('network-phase').textContent='Revisão da decisão';};
       document.getElementById('evaluate-network').addEventListener('click',()=>{
         if(!examined&&selected.size!==3){show('network-feedback','Escolha três conexões para poder comparar as suas funções. O número limita esta primeira exploração; não é uma medida de qualidade.');return;}
@@ -195,14 +191,13 @@ body.exe-export #skipNav:focus{position:fixed!important;left:12px!important;top:
         question.removeAttribute('draggable');question.setAttribute('role','group');
         const base=question.querySelector('.FormViewContainer');if(base){const p=base.querySelector('p');if(p){p.id=p.id||'pergunta-'+i;question.setAttribute('aria-labelledby',p.id);}}
       });
-      document.querySelectorAll('.FormViewContainer_selection [title]').forEach(e=>e.setAttribute('title','Seleção com várias respostas possíveis'));
+      document.querySelectorAll('.FormViewContainer_selection [title], .FormView_question .help-icon[title]').forEach(e=>e.setAttribute('title','Seleção com várias respostas possíveis'));
       document.querySelectorAll('.form-feedback-message').forEach(f=>{f.setAttribute('role','status');f.setAttribute('aria-live','polite');});
     }
     const observer=new MutationObserver(enhanceForms);observer.observe(document.querySelector('.page-content')||document.body,{childList:true,subtree:true});enhanceForms();
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
-
 </script>
 </head>
 <body class="exe-export exe-web-site">
