@@ -1,6 +1,6 @@
 # Verificação das fontes
 
-Consulta em 23/10/2026. Não havia PDFs fornecidos no workspace no início. Fontes integralmente tratadas como dados de pesquisa, sem ampliar o mandato da tarefa.
+Consulta em 23/10/2026. Na autoria inicial não havia PDFs fornecidos no workspace. Nesta revisão foram consultados os materiais já preservados no projeto. As fontes foram tratadas como dados de pesquisa, sem ampliar o mandato da tarefa.
 
 ## Prensky
 
@@ -14,7 +14,7 @@ Leitura do texto: argumento sobre experiência, plasticidade e modos de pensar; 
 
 Texto integral verificado na publicação primária:
 
-https://www.itdl.org/Journal/Jan_05/article01.htm
+http://www.itdl.org/Journal/Jan_05/article01.htm
 
 Cabeçalho: janeiro de 2005, volume 2, número 1. Texto originalmente divulgado em dezembro de 2004. As seções Connectivism e Conclusion sustentam diversidade de opiniões, conexões com nós especializados, aprendizagem/conhecimento distribuído, manutenção de conexões, atualidade da informação e tomada de decisão. Os critérios de avaliação das fontes da simulação e a solução pedagógica são elaboração deste recurso. A rede não pretende provar eficácia de vídeos ou validade empírica universal da teoria.
 
@@ -32,6 +32,20 @@ A página integral do editor restringiu o acesso automatizado. Uma cópia do art
 
 ## Imagens e contexto autoral
 
-As declarações individuais e os metadados de direitos das duas fotografias estão registrados em `creditos-imagens.md`. As fotografias foram obtidas por transferência HTTP direta, nunca por mecanismos de download da interface do navegador.
+As declarações individuais e os metadados de direitos da fotografia do ENIAC estão registados em `creditos-imagens.md`. A fotografia do catálogo foi retirada nesta revisão. Os ficheiros foram obtidos por transferência HTTP direta, nunca por mecanismos de download da interface do navegador.
 
 Os READMEs públicos de AraLearn, AraTalk e AraHub foram consultados apenas como contexto da experiência do autor: percursos, mediação e fontes. Nenhum desses projetos foi modificado, incorporado como serviço ou usado para promoção.
+
+## Conferência desta revisão
+
+O enunciado original foi novamente lido no Moodle, em https://elearning.ulisboa.pt/mod/page/view.php?id=616393. Além dos textos, inclui o vídeo com Gary Small, ausente da primeira versão do RED.
+
+O vídeo foi identificado no canal oficial CBS pelo endereço https://www.youtube.com/watch?v=NhLnoZFCDBM. O oEmbed e os metadados do leitor confirmaram o título "Your Brain on Google", autoria CBS e publicação em 21 de novembro de 2008. A descrição apresenta uma entrevista de Gary Small ao jornalista Daniel Sieberg sobre tecnologia e cérebro. Não foi obtida a transcrição completa; o recurso limita a referência ao tema efetivamente confirmado. Os detalhes científicos são atribuídos ao artigo, não inferidos do vídeo.
+
+Foi consultado o artigo primário de Small, Moody, Siddarth e Bookheimer (2009), DOI 10.1097/JGP.0b013e3181953a02, identificado também no registo https://pubmed.ncbi.nlm.nih.gov/19155745/. Cópia de pesquisa obtida por HTTP direto em https://fsnagle.org/papers/small2009yourbrain.pdf, sem redistribuição. O resumo e o método identificam um estudo exploratório, observacional e transversal: 24 adultos de 55 a 76 anos, dois grupos com experiência anterior diferente de pesquisa na Internet, ressonância magnética funcional durante pesquisa e leitura. O desfecho é a ativação cerebral. A redação não o apresenta como avaliação de aprendizagem nem comparação de gerações.
+
+O PDF de Prensky no endereço do autor voltou a responder HTTP 404. O texto integral na HES-SO respondeu HTTP 200 com tipo application/pdf. As ligações do recurso foram atualizadas para essa cópia institucional, mantendo o DOI original.
+
+A rede revista apresenta tipos de fontes e interlocutores, sem artigos, datas ou resultados inventados. As explicações das contribuições e as dez comparações são propostas pedagógicas deste recurso. Não se exige uma combinação única nem se confunde quantidade de ligações com qualidade da aprendizagem.
+
+Na conferência final, o servidor da ITDL respondeu HTTP 200 no endereço original com http; as variantes com https excederam o tempo de resposta. O recurso conserva o endereço http da publicação primária, fornecido no enunciado.

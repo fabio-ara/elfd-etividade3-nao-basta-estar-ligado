@@ -1,29 +1,288 @@
 [
   {
-    "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/conceitos-e-critica.html",
+    "page": "/index.html",
     "width": 390,
     "scrollWidth": 390,
-    "nav": 5,
-    "h1": "Conceitos e crítica",
-    "loaded": true,
-    "allInputsLabeled": true
+    "language": "pt-PT",
+    "h1": "Como aprendemos com a tecnologia?",
+    "active": "Início",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18.72px",
+    "captionFont": "16px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Conferir respostas",
+        "height": 50
+      },
+      {
+        "text": "Seguinte: Gerações digitais",
+        "height": 69
+      }
+    ]
   },
   {
-    "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/praticas-1-a-3.html",
+    "page": "/html/geracoes-digitais.html",
     "width": 390,
     "scrollWidth": 390,
-    "nav": 5,
-    "h1": "Práticas 1 a 3",
-    "loaded": true,
-    "allInputsLabeled": true
+    "language": "pt-PT",
+    "h1": "Nativos e imigrantes digitais",
+    "active": "Gerações digitais",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Anterior: Início",
+        "height": 69
+      },
+      {
+        "text": "Seguinte: Aprender em rede",
+        "height": 69
+      }
+    ]
   },
   {
-    "url": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/html/praticas-4-a-6.html",
+    "page": "/html/aprender-em-rede.html",
     "width": 390,
     "scrollWidth": 390,
-    "nav": 5,
-    "h1": "Práticas 4 a 6",
-    "loaded": true,
-    "allInputsLabeled": true
+    "language": "pt-PT",
+    "h1": "Aprender em rede",
+    "active": "Aprender em rede",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Professor✓ Selecionada",
+        "height": 90
+      },
+      {
+        "text": "Colegas✓ Selecionada",
+        "height": 90
+      },
+      {
+        "text": "Artigo científico",
+        "height": 90
+      },
+      {
+        "text": "Base de dados de artigos",
+        "height": 90
+      },
+      {
+        "text": "Comunidade de prática",
+        "height": 90
+      },
+      {
+        "text": "Comparar fontes",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Gerações digitais",
+        "height": 69
+      },
+      {
+        "text": "Seguinte: Criar e colaborar",
+        "height": 69
+      }
+    ]
+  },
+  {
+    "page": "/html/criar-e-colaborar.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "language": "pt-PT",
+    "h1": "Criar e aprender em grupo",
+    "active": "Criar e colaborar",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Ver uma possibilidade",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Aprender em rede",
+        "height": 69
+      },
+      {
+        "text": "Seguinte: Atenção e inclusão",
+        "height": 69
+      }
+    ]
+  },
+  {
+    "page": "/html/atencao-e-inclusao.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "language": "pt-PT",
+    "h1": "Estudar, avaliar fontes e participar",
+    "active": "Atenção e inclusão",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Conferir respostas",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Criar e colaborar",
+        "height": 69
+      }
+    ]
+  },
+  {
+    "page": "/index.html",
+    "width": 1365,
+    "scrollWidth": 1350,
+    "language": "pt-PT",
+    "h1": "Como aprendemos com a tecnologia?",
+    "active": "Início",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18.72px",
+    "captionFont": "16px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Conferir respostas",
+        "height": 50
+      },
+      {
+        "text": "Seguinte: Gerações digitais",
+        "height": 48
+      }
+    ]
+  },
+  {
+    "page": "/html/geracoes-digitais.html",
+    "width": 1365,
+    "scrollWidth": 1350,
+    "language": "pt-PT",
+    "h1": "Nativos e imigrantes digitais",
+    "active": "Gerações digitais",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Anterior: Início",
+        "height": 48
+      },
+      {
+        "text": "Seguinte: Aprender em rede",
+        "height": 48
+      }
+    ]
+  },
+  {
+    "page": "/html/aprender-em-rede.html",
+    "width": 1365,
+    "scrollWidth": 1350,
+    "language": "pt-PT",
+    "h1": "Aprender em rede",
+    "active": "Aprender em rede",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Professor✓ Selecionada",
+        "height": 76
+      },
+      {
+        "text": "Colegas✓ Selecionada",
+        "height": 76
+      },
+      {
+        "text": "Artigo científico",
+        "height": 76
+      },
+      {
+        "text": "Base de dados de artigos",
+        "height": 76
+      },
+      {
+        "text": "Comunidade de prática",
+        "height": 76
+      },
+      {
+        "text": "Comparar fontes",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Gerações digitais",
+        "height": 48
+      },
+      {
+        "text": "Seguinte: Criar e colaborar",
+        "height": 48
+      }
+    ]
+  },
+  {
+    "page": "/html/criar-e-colaborar.html",
+    "width": 1365,
+    "scrollWidth": 1350,
+    "language": "pt-PT",
+    "h1": "Criar e aprender em grupo",
+    "active": "Criar e colaborar",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Ver uma possibilidade",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Aprender em rede",
+        "height": 48
+      },
+      {
+        "text": "Seguinte: Atenção e inclusão",
+        "height": 48
+      }
+    ]
+  },
+  {
+    "page": "/html/atencao-e-inclusao.html",
+    "width": 1365,
+    "scrollWidth": 1350,
+    "language": "pt-PT",
+    "h1": "Estudar, avaliar fontes e participar",
+    "active": "Atenção e inclusão",
+    "navCount": 5,
+    "navInert": false,
+    "bodyFont": "18px",
+    "captionFont": null,
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Conferir respostas",
+        "height": 50
+      },
+      {
+        "text": "Anterior: Criar e colaborar",
+        "height": 48
+      }
+    ]
   }
 ]

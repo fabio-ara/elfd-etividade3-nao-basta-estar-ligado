@@ -1,69 +1,73 @@
-# Não basta estar ligado
+# Como aprendemos com a tecnologia?
 
-Uma experiência sobre gerações, redes e aprendizagem digital.
+Recurso educativo de Fabio Eidi Ara para E-learning e Formação a Distância, 2026/2027, Mestrado em Educação e Tecnologias Digitais, Instituto de Educação, Universidade de Lisboa. Módulo 2, Etividade 3.
 
-**[Abrir o RED](https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/)** · [Projeto editável](editavel/nao-basta-estar-ligado.elpx) · [PDF de consulta](output/pdf/nao-basta-estar-ligado-consulta.pdf)
+## Revisão local
 
-Fabio Eidi Ara · Mestrado em Educação e Tecnologias Digitais, Universidade de Lisboa · E-learning e Formação a Distância, 2026/2027 · Módulo 2, Etividade 3.
+Esta revisão atualiza a escrita, as atividades, a rede e a apresentação. **Não foi publicada nem submetida no Moodle.** O endereço público da versão anterior permanece inalterado e não representa esta revisão.
+
+Para abrir a versão revista, execute na raiz:
+
+```powershell
+python -m http.server 8768 --bind 127.0.0.1 --directory website
+```
+
+Depois abra http://127.0.0.1:8768/. Não é necessário iniciar sessão.
 
 ## Objetivo e público
 
-Microexperiência autônoma, de aproximadamente 12 minutos, para professores, formadores e estudantes adultos. A pergunta “Ter crescido rodeado de tecnologia significa saber aprender com ela?” conduz a escolhas sobre evidência, conceitos, conexões e práticas educativas. Não é um curso completo nem uma apresentação dos projetos pessoais do autor.
+O recurso destina-se a professores, formadores e estudantes adultos. Distingue a proposta de Prensky das hipóteses sobre os efeitos da experiência digital e da crítica posterior. Apresenta o conectivismo de Siemens através da escolha e comparação de fontes. As seis práticas mantêm a divisão do enunciado: três exploram possibilidades da participação digital; três desenvolvem atenção, avaliação crítica e inclusão.
 
-O participante não recebe uma pontuação: examina justificações, pode rever escolhas e precisa combinar atualização da evidência com perspectivas humanas. A rede inclui documentos fictícios, identificados como simulação; eles não são apresentados como estudos científicos reais.
+1. **Início:** Ana e Estevão avaliam uma afirmação sobre estudar com várias aplicações abertas.
+2. **Gerações digitais:** conceitos de Prensky, plasticidade cerebral, vídeo com Gary Small, investigação e crítica. Classificação de três ideias.
+3. **Aprender em rede:** seleção de três fontes, explicações individuais e comparação das suas contribuições.
+4. **Criar e colaborar:** produção multimodal, construção em grupo e aprendizagem com feedback.
+5. **Atenção e inclusão:** leitura atenta, verificação das fontes e participação acessível. Desafio final, referências e autoria.
 
-## Cinco etapas
+## Ficheiros
 
-1. **O problema:** Lia e Rui, de gerações diferentes, precisam verificar uma mensagem. Formulário com seleção de evidências e retorno explicativo.
-2. **Conceitos e crítica:** nativos e imigrantes digitais na proposta de Prensky; limites da generalização e classificação de proposta, extrapolação e crítica posterior.
-3. **Aprender em rede:** conectivismo de Siemens; selecionar três conexões, examinar contribuições e limites, rever a rede perante informação nova.
-4. **Práticas 1 a 3:** produção multimodal, aprendizagem colaborativa em rede, interatividade e feedback. Cada prática apresenta ação do educador, finalidade e indicador observável.
-5. **Práticas 4 a 6:** reflexão e atenção sustentada, avaliação crítica das fontes, inclusão e ética digital. Desafio final, referências e créditos em painéis expansíveis, sem sexta página.
+- `editavel/nao-basta-estar-ligado.elpx`: projeto editável final, com cinco páginas e nove componentes.
+- `editavel/website-exportado.zip`: exportação HTML5 efetivamente produzida pelo eXeLearning.
+- `website/`: a mesma exportação, descompactada, com os recursos necessários.
+- `editavel/content.xml`: XML extraído do projeto final.
+- `editavel/estrutura.json`: especificação auxiliar de autoria.
+- `conteudo/`: conteúdos HTML e extensões CSS/JavaScript que alimentam a reconstrução.
+- `recursos/imagens/computacao.jpg`: fotografia histórica utilizada. O catálogo de fichas da versão anterior deixou de integrar o recurso.
+- `output/pdf/nao-basta-estar-ligado-consulta.pdf`: consulta estática das cinco etapas em seis páginas, incluindo explicações e referências.
+- `creditos-imagens.md`: proveniência e direitos da fotografia.
+- `pesquisa/notas-fontes.md`: registo de conferência das leituras.
+- `validacao/relatorio.md`: resultados e limites dos testes desta revisão.
 
-## Ferramenta e editabilidade
+Os nomes dos ficheiros editáveis foram conservados para manter a continuidade do projeto. O título apresentado ao estudante é "Como aprendemos com a tecnologia?".
 
-**Ferramenta efetivamente utilizada: eXeLearning online 4.0.5**, em https://online.exelearning.net/. O conteúdo inicial foi preparado por código conforme o formato oficial ODE 2.0 e um modelo oficial. Em seguida foi importado no editor, editado e salvo como conteúdo, exportado em ELPX e HTML5 e reaberto no editor. O pacote final não é uma simulação de arquivo eXe.
+## Ferramenta e nova exportação
 
-- `editavel/nao-basta-estar-ligado.elpx`: projeto canônico, com cinco páginas, dez componentes e recursos incorporados.
-- `editavel/website-exportado.zip`: exportação HTML5 real do editor.
-- `editavel/content.xml`: cópia do XML do pacote final, para inspeção.
-- `editavel/estrutura.json`: especificação auxiliar de autoria; não substitui o ELPX final.
-- `website/`: exportação web descompactada, publicada integralmente pelo GitHub Pages.
-- `conteudo/`: textos, CSS e JavaScript autorais em UTF-8.
-- `recursos/imagens/`: cópias locais das duas fotografias de domínio público.
-- `output/pdf/`: versão estática de consulta, em cinco páginas.
-- `validacao/`: relatório e evidências da verificação.
+Foi utilizado o **eXeLearning online 4.0.5**, em https://online.exelearning.net/. O projeto foi importado, aberto para edição num iDevice Texto e guardado no editor. Os ficheiros ELPX e HTML5 resultam dos exportadores reais da ferramenta. O ELPX final foi reaberto para confirmar a estrutura.
 
-Os formulários das etapas 1 e 5 são iDevices **Formulário** nativos; a resposta da etapa 4 usa o feedback do iDevice **Texto**. A classificação e a rede são componentes funcionais em HTML/SVG/JavaScript, inseridos em iDevices Texto. Os textos e formulários podem ser editados no editor. Estruturas interativas devem ser alteradas pelo código-fonte HTML do iDevice; CSS e comportamento estão em **Propriedades do projeto → Código personalizado**. Evite remover IDs, atributos `data-*` e campos de feedback. Após alterações, exporte novamente e teste as interações.
+Os questionários inicial e final usam o iDevice **Formulário**. A resposta do trabalho de grupo usa o feedback do iDevice **Texto**. A classificação e a rede usam HTML, SVG e JavaScript em iDevices Texto. Não foi acrescentada uma biblioteca.
 
-Guia oficial: https://exelearning.github.io/exelearning/elpx-format/ai-generation/. Modelo: https://github.com/exelearning/exelearning/blob/main/test/fixtures/really-simple-test-project.elpx.
+No editor, altere textos e perguntas nos respetivos iDevices. Para a rede e a classificação, preserve os IDs e atributos `data-*` do HTML. O CSS e o JavaScript encontram-se em **Propriedades do projeto, Código personalizado**. Depois de editar, exporte novamente como website e teste.
 
-## Funcionamento e privacidade
+Para reconstruir a partir dos ficheiros de origem:
 
-Website estático, sem conta, backend, serviços dos projetos AraLearn/AraTalk/AraHub, chamadas de IA ou banco de dados. Os arquivos necessários à experiência ficam no próprio website; apenas as leituras externas exigem acesso aos respectivos sites. JavaScript é necessário para as atividades. As escolhas personalizadas usam `sessionStorage`; os formulários nativos podem reiniciar ao recarregar ou mudar a dimensão emulada. Não há envio de respostas nem análise de utilização adicionada pelo autor. O provedor de hospedagem recebe as solicitações usuais de acesso ao site.
+1. Execute `python scripts/gerar-projeto.py` (Python e lxml).
+2. Importe `tmp/entrada.elpx` no eXeLearning. Este pacote é uma entrada de autoria, não a exportação final.
+3. Exporte pelo eXeLearning para atualizar os dois ficheiros finais e descompacte o website.
+4. Execute `python scripts/gerar-pdf.py` para atualizar a consulta (ReportLab e fontes Arial/Georgia do Windows).
+5. Execute `python scripts/validar-publicacao.py` com o servidor local ativo. Apesar do nome histórico, este verificador usa apenas o endereço local por omissão.
 
-Navegação entre cinco páginas HTML com caminhos relativos, acesso direto e atualização de página. Teclado, foco visível, rótulos, avisos de feedback e movimento reduzido foram considerados. Não se declara certificação WCAG nem teste completo com leitores de tela.
+Documentação: [formato ELPX](https://exelearning.github.io/exelearning/elpx-format/) e [guia oficial de geração](https://exelearning.github.io/exelearning/elpx-format/ai-generation/). A entrada usa o contrato ODE 2.0 e um modelo oficial, seguido de importação e exportação no editor.
 
-Para consulta local: `python -m http.server 8768 --directory website`, depois http://127.0.0.1:8768/. O site público dispensa qualquer instalação.
+## Interações e privacidade
 
-`scripts/gerar-projeto.py` permite reconstruir uma **entrada** ELPX usando o pacote preservado como base; depende de Python e lxml. Essa entrada ainda deve passar pelo editor e pela exportação oficial. `scripts/gerar-pdf.py` gera a versão de consulta com ReportLab e renderiza com PyMuPDF; usa fontes locais do Windows. Os scripts são auxiliares e não integram o funcionamento público do RED.
+Há um único conjunto de fontes selecionadas na rede. Esse conjunto determina os destaques, a contagem, as explicações e a comparação. O limite é sempre três; todas as dez combinações têm uma apreciação específica e uma ação para continuar a pesquisa. As fontes são tipos de documentos e interlocutores, sem estudos ou resultados fictícios.
 
-## Fundamentação
+As escolhas personalizadas podem permanecer em `sessionStorage` durante a sessão. Os formulários nativos reiniciam ao voltar à página. A experiência funciona também sem armazenamento. Não são enviados resultados, não há conta, serviços de IA, base de dados ou dependência dos projetos pessoais do autor. As leituras e o vídeo abrem nos respetivos sites e podem estar sujeitos às condições desses sites.
 
-Prensky é apresentado como autor de uma distinção e de propostas pedagógicas; suas inferências sobre diferenças cerebrais não são convertidas em fatos demonstrados. O contraponto de Kirschner e De Bruyckere contextualiza a generalização geracional. O conectivismo é apresentado como a perspectiva teórica de Siemens, com diversidade, fontes especializadas, manutenção de conexões, atualização e decisão. A quantidade de conexões não é usada como medida de aprendizagem. Casos e seis práticas são elaboração pedagógica deste recurso.
+## Fundamentação e direitos
 
-- Prensky, M. (2001). Digital natives, digital immigrants, Part II: Do they really think differently? *On the Horizon, 9*(6), 1–6. https://doi.org/10.1108/10748120110424843
-- Siemens, G. (2005). Connectivism: A learning theory for the digital age. *International Journal of Instructional Technology and Distance Learning, 2*(1). https://www.itdl.org/Journal/Jan_05/article01.htm. Texto original de dezembro de 2004; publicação na revista em janeiro de 2005.
-- Kirschner, P. A., & De Bruyckere, P. (2017). The myths of the digital native and the multitasker. *Teaching and Teacher Education, 67*, 135–142. https://doi.org/10.1016/j.tate.2017.06.001
+As referências completas estão no último ecrã. Foram utilizados Prensky (2001), Siemens (2005, texto de 2004), Kirschner e De Bruyckere (2017), o vídeo da CBS com Gary Small (2008) e o estudo de Small e colegas (2009). Os resultados sobre atividade cerebral não são apresentados como prova de melhor aprendizagem ou de diferenças entre gerações. Os exemplos de práticas são propostas deste recurso, com as relações teóricas indicadas junto das passagens relevantes.
 
-O workspace estava vazio no início. As leituras foram obtidas de versões verificáveis; os PDFs protegidos por direitos autorais usados na pesquisa não são redistribuídos neste repositório. As notas de verificação estão em [pesquisa/notas-fontes.md](pesquisa/notas-fontes.md).
+Texto sob CC BY-SA 4.0. Fotografia do ENIAC em domínio público nos Estados Unidos (PD-USGov-Military-Army). O software e os recursos de interface do eXeLearning conservam os seus avisos e licenças. Não foram utilizadas imagens geradas por IA. A assistência técnica e editorial foi realizada com Codex; a revisão académica e a submissão ficam a cargo do autor.
 
-## Direitos e autoria
-
-Texto e código autorais: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Fabio Eidi Ara. Concepção e implementação assistidas pelo Codex; revisão e submissão acadêmica sob responsabilidade do autor. Fotografias: domínio público, com declarações individuais verificadas; [créditos completos](creditos-imagens.md). Nenhuma imagem de IA foi utilizada. Componentes e ícones do software eXeLearning conservam suas licenças originais; ver https://github.com/exelearning/exelearning.
-
-## Publicação e entrega
-
-O workflow publica apenas `website/` no GitHub Pages; fontes, ELPX e PDF permanecem acessíveis neste repositório. O estado dos testes está em [validacao/relatorio.md](validacao/relatorio.md).
-
-A submissão no Moodle é **manual, após revisão do autor**. Não foi enviado nem salvo rascunho no espaço institucional. Veja [entrega-moodle.txt](entrega-moodle.txt) para o texto e os passos preparados.
+Não se declara certificação de acessibilidade nem teste integral com leitores de ecrã. Os testes efetivamente realizados estão descritos no relatório.

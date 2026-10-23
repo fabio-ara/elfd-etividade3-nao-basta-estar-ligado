@@ -1,64 +1,154 @@
-/* Extensões didáticas locais: classificação e revisão de uma rede. Sem serviços externos. */
+/* Complementos dos iDevices nativos. As escolhas ficam apenas nesta sessão do navegador. */
 (() => {
   'use strict';
-  const get = key => {try{return JSON.parse(sessionStorage.getItem('red-'+key));}catch{return null;}};
-  const put = (key,value) => {try{sessionStorage.setItem('red-'+key,JSON.stringify(value));}catch{/* A experiência funciona também sem armazenamento. */}};
-  const show = (id,html) => {const target=document.getElementById(id);if(target){target.hidden=false;target.innerHTML=html;}};
-  function init(){
-    document.documentElement.lang='pt-BR';
-    const skip=document.getElementById('skipNav');if(skip)skip.textContent='Ir para o conteúdo';
-    const nav=document.getElementById('siteNav');
-    const restoreNav=()=>{if(nav?.inert)nav.inert=false;};
-    if(nav)new MutationObserver(restoreNav).observe(nav,{attributes:true,attributeFilter:['inert']});
-    window.addEventListener('load',restoreNav);restoreNav();
-    const active=document.querySelector('#siteNav a.active');
-    active?.setAttribute('aria-current','page');
-    document.querySelector('#siteNav')?.setAttribute('aria-label','As cinco etapas da experiência');
-    document.querySelector('.nav-button-left:not([aria-hidden])')?.setAttribute('aria-label','Etapa anterior');
-    document.querySelector('.nav-button-right:not([aria-hidden])')?.setAttribute('aria-label','Próxima etapa');
-    const classifications={
-      a:{correct:'proposta',text:'É uma proposta pedagógica de Prensky (2001): aproximar o ensino das experiências digitais, com jogos digitais. Uma proposta não demonstra eficácia para todos os estudantes; a adequação ao objetivo e o efeito na aprendizagem precisam de avaliação.'},
-      b:{correct:'hipotese',text:'É uma extrapolação que requer evidência. Prensky argumenta a favor de diferenças associadas à experiência, mas reconhece não ter observado diretamente os cérebros dos nativos para confirmar diferenças físicas. Isso não estabelece dois tipos de cérebro nem prova a superioridade da multitarefa. A frase transforma uma inferência em certeza e generaliza para toda uma geração.'},
-      c:{correct:'critica',text:'É a conclusão crítica de Kirschner e De Bruyckere (2017). A investigação revista pelos autores não sustenta uma geração homogênea de especialistas digitais ou de multitarefadores eficazes. Isso não significa que nenhum jovem tenha competências: significa que é preciso observá-las, sem as deduzir da idade.'}
-    };
-    document.querySelectorAll('[data-classify]').forEach(select=>{
-      const update=()=>{if(!select.value){document.getElementById('feedback-'+select.dataset.classify).hidden=true;return;}const item=classifications[select.dataset.classify];show('feedback-'+select.dataset.classify,`<strong>${select.value===item.correct?'Classificação fundamentada.':'Reveja o nível da afirmação.'}</strong> ${item.text}`);put('class-'+select.dataset.classify,select.value);};
-      const saved=get('class-'+select.dataset.classify);if(saved){select.value=saved;update();}select.addEventListener('change',update);
+  const get = key => { try { return JSON.parse(sessionStorage.getItem('red-revisao2-' + key)); } catch { return null; } };
+  const put = (key, value) => { try { sessionStorage.setItem('red-revisao2-' + key, JSON.stringify(value)); } catch {} };
+  function init() {
+    document.documentElement.lang = 'pt-PT';
+    const skip = document.getElementById('skipNav');
+    if (skip) skip.textContent = 'Ir para o conteúdo';
+    const nav = document.getElementById('siteNav');
+    const restoreNav = () => { if (nav?.inert) nav.inert = false; };
+    if (nav) new MutationObserver(restoreNav).observe(nav, {attributes:true, attributeFilter:['inert']});
+    window.addEventListener('load', restoreNav);
+    restoreNav();
+    nav?.setAttribute('aria-label', 'Páginas do recurso');
+    document.querySelector('#siteNav a.active')?.setAttribute('aria-current', 'page');
+    const links = [...document.querySelectorAll('#siteNav a')];
+    for (const [selector, prefix] of [['.nav-button-left', 'Anterior: '], ['.nav-button-right', 'Seguinte: ']]) {
+      document.querySelectorAll(selector + ':not([aria-hidden="true"])').forEach(button => {
+        const target = links.find(link => link.href === button.href);
+        if (target) { button.textContent = prefix + target.textContent.trim(); button.setAttribute('aria-label', button.textContent); }
+      });
+    }
+    const finalPage = links.at(-1);
+    document.querySelectorAll('#siteFooter a[href="https://creativecommons.org/licenses/by-sa/4.0/"]').forEach(link => {
+      link.textContent = 'CC BY-SA 4.0';
     });
-    if(document.querySelector('.network')){
-      const notes={professor:'Professor: ajuda a definir a pergunta e os critérios de comparação. Limite: a sua autoridade não substitui evidência e pode deixar de fora experiências de estudantes.',colegas:'Colegas: revelam dificuldades e interpretações diferentes. Limite: experiências próximas podem repetir a mesma opinião; é preciso procurar contrapontos.',artigo:'Artigo científico: permite examinar método e resultados de um estudo. Limite: a amostra, a data e o contexto delimitam o que se pode concluir. Publicação científica não dispensa leitura crítica.',comunidade:'Comunidade de prática: reúne experiências de aplicação e condições de acesso. Limite: relatos úteis para o contexto não provam, por si só, um efeito geral.',base:'Base de dados: permite localizar outros estudos e atualizar a pesquisa. Limite: indexação e data recente não garantem qualidade; é necessário examinar cada trabalho.'};
-      const selected=new Set(get('network')||[]);let examined=!!get('network-examined');
-      const sync=()=>{document.querySelectorAll('[data-node]').forEach(button=>{const on=selected.has(button.dataset.node);button.setAttribute('aria-pressed',String(on));document.querySelector(`[data-edge="${button.dataset.node}"]`)?.classList.toggle('selected',on);});document.getElementById('network-count').textContent=examined?`${selected.size} conexões nesta revisão`:`${selected.size} de 3 conexões selecionadas`;put('network',[...selected]);};
-      document.querySelectorAll('[data-node]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.node;if(selected.has(key))selected.delete(key);else if(!examined&&selected.size>=3){show('node-insight','Para examinar a primeira decisão, mantenha três ligações. Desligue uma antes de escolher outra. '+notes[key]);return;}else selected.add(key);document.getElementById('node-insight').textContent=notes[key];document.getElementById('network-feedback').hidden=true;document.getElementById('revision-feedback').hidden=true;sync();}));
-      const reveal=()=>{document.getElementById('network-update').hidden=false;document.getElementById('network-phase').textContent='Revisão da decisão';};
-      document.getElementById('evaluate-network').addEventListener('click',()=>{
-        if(!examined&&selected.size!==3){show('network-feedback','Escolha três conexões para poder comparar as suas funções. O número limita esta primeira exploração; não é uma medida de qualidade.');return;}
-        if(selected.size===0){show('network-feedback','Estabeleça pelo menos uma conexão para examinar as suas possibilidades e os seus limites.');return;}
-        const human=['professor','colegas','comunidade'].some(k=>selected.has(k));const research=selected.has('artigo')||selected.has('base');
-        show('network-feedback',`<p><strong>${human&&research?'A rede combina investigação e perspectivas humanas.':human?'A rede reúne perspectivas humanas, mas falta confrontá-las com investigação.':'A rede permite procurar evidência, mas precisa de escutar o contexto de quem aprende.'}</strong> ${selected.has('base')?'A base permite atualizar a busca; cada resultado ainda precisa de avaliação.':'Uma nova busca pode revelar informação que as ligações atuais não trazem.'}</p><p>Esta escolha não prova que vídeos sejam melhores. É necessário comparar objetivos, métodos, limites e condições de acesso. Agora examine o que mudou.</p>`);
-        examined=true;put('network-examined',true);reveal();sync();
-      });
-      document.getElementById('revise-network').addEventListener('click',()=>{
-        const reason=document.getElementById('network-reason').value;put('network-reason',reason);
-        if(!reason){show('revision-feedback','Escolha uma justificação para a sua revisão. Não basta alterar o desenho da rede.');return;}
-        if(reason!=='atualizar'){show('revision-feedback',reason==='popular'?'Uma fonte muito partilhada pode repetir um erro. Compare evidências e condições da turma antes de decidir.':'Uma data recente não basta. Examine a qualidade e a pertinência da revisão antes de a usar. Atualizar é avaliar, não substituir automaticamente.');return;}
-        if(!selected.has('base')||!['professor','colegas','comunidade'].some(k=>selected.has(k))){show('revision-feedback','A justificação é pertinente. Ajuste também as ligações: nesta simulação, a base permite atualizar a evidência; professor, colegas ou comunidade ajudam a confrontá-la com o contexto. Uma única fonte não cobre ambas as funções.');return;}
-        show('revision-feedback','<strong>A revisão está fundamentada.</strong> Você combinou atualização da evidência com uma perspectiva humana e recusou uma regra universal. Uma decisão possível é combinar leituras e vídeos conforme o objetivo, testar uma alternativa acessível e rever a escolha com o grupo. Isso concretiza uma ideia de Siemens: manter conexões e decidir perante informação nova. Não há garantia automática de aprendizagem por ter mais ligações.');
-      });
-      const savedReason=get('network-reason');if(savedReason)document.getElementById('network-reason').value=savedReason;
-      if(examined)reveal();sync();
+    if (finalPage) document.querySelectorAll('[data-final-anchor]').forEach(link => {
+      const target = new URL(finalPage.href);
+      target.hash = link.dataset.finalAnchor;
+      link.href = target.href;
+    });
+    const classifications = {
+      a: {correct:'proposta', text:'É uma sugestão para o ensino. Prensky propôs usar jogos digitais para trabalhar os conteúdos das aulas. Ao escolher um jogo, o professor precisa de verificar se as tarefas ajudam os estudantes a compreender esse conteúdo.'},
+      b: {correct:'hipotese', text:'É uma hipótese a investigar: sugere uma influência possível da experiência. Para a estudar, é necessário definir que experiências se comparam e observar como as pessoas aprendem. O argumento de Prensky sobre plasticidade cerebral não demonstrou as diferenças físicas que sugeria entre grupos.'},
+      c: {correct:'critica', text:'É uma crítica à divisão por gerações. Kirschner e De Bruyckere questionaram a ideia de uma geração com capacidades digitais uniformes. Observar as tarefas que cada pessoa realiza permite conhecer diferenças que a idade não esclarece.'}
+    };
+    document.querySelectorAll('[data-classify]').forEach(select => {
+      const item = classifications[select.dataset.classify];
+      const feedback = document.getElementById('feedback-' + select.dataset.classify);
+      const update = () => {
+        feedback.hidden = !select.value;
+        feedback.textContent = select.value ? (select.value === item.correct ? '' : 'Considere o que a frase faz: recomenda uma ação, propõe uma relação a estudar ou questiona uma generalização. ') + item.text : '';
+        put('class-' + select.dataset.classify, select.value);
+      };
+      const saved = get('class-' + select.dataset.classify);
+      if ([...select.options].some(option => option.value === saved)) select.value = saved;
+      update();
+      select.addEventListener('change', update);
+    });
+    if (document.querySelector('.network')) {
+      const order = ['professor', 'colegas', 'artigo', 'base', 'comunidade'];
+      const saved = get('network');
+      const selected = new Set((Array.isArray(saved) ? saved : []).filter(key => order.includes(key)).slice(0, 3));
+      let compared = false;
+      const feedback = document.getElementById('network-feedback');
+      const limit = document.getElementById('network-limit');
+      const comparisons = {
+        'professor|colegas|artigo': [
+          'O professor ajuda a definir o que se pretende aprender, os colegas descrevem as suas experiências e o artigo permite examinar como uma investigação avaliou a aprendizagem. Compare o conteúdo estudado, as atividades realizadas e a forma de avaliar a compreensão.',
+          'A seguir, procure outra pesquisa sobre a mesma pergunta e verifique se os seus resultados se aplicam às condições descritas pelos colegas.'
+        ],
+        'professor|colegas|base': [
+          'O professor ajuda a formular a pergunta, os colegas identificam dificuldades concretas e a base de dados permite procurar pesquisas sobre essas dificuldades. Os relatos ajudam a escolher palavras e situações relevantes para a pesquisa.',
+          'Selecione um artigo encontrado na base. Leia o que foi comparado e como se avaliou a aprendizagem antes de decidir quando usar texto ou vídeo.'
+        ],
+        'professor|colegas|comunidade': [
+          'O professor relaciona os materiais com os objetivos, os colegas descrevem o estudo e a comunidade acrescenta experiências de outras aulas. Confronte as condições em que cada relato ocorreu: o conteúdo, a tarefa e a forma de acompanhar a compreensão.',
+          'Procure agora uma investigação sobre uma das situações relatadas. Compare os seus resultados com as observações do grupo.'
+        ],
+        'professor|artigo|base': [
+          'O professor ajuda a definir uma tarefa de aprendizagem, o artigo apresenta um estudo e a base permite encontrar pesquisas que o confirmem, completem ou questionem. Compare os métodos e os resultados dos trabalhos encontrados.',
+          'Converse também com estudantes sobre as suas condições de acesso e dificuldades. Use essa informação para planear uma atividade que permita observar o que compreenderam.'
+        ],
+        'professor|artigo|comunidade': [
+          'O professor ajuda a escolher o que avaliar, o artigo mostra como uma pesquisa o investigou e a comunidade apresenta experiências de aplicação. Compare a atividade do estudo com as tarefas descritas pelos profissionais.',
+          'Procure outras pesquisas e verifique as condições de acesso do grupo. Depois, experimente um material com uma tarefa de compreensão adequada ao objetivo.'
+        ],
+        'professor|base|comunidade': [
+          'O professor ajuda a formular o objetivo, a comunidade apresenta situações de ensino e a base permite localizar investigações relacionadas. Os relatos podem tornar a pergunta de pesquisa mais precisa.',
+          'Escolha uma investigação e leia quem participou e como se avaliou a aprendizagem. Confronte esses elementos com as condições das aulas relatadas.'
+        ],
+        'colegas|artigo|base': [
+          'Os colegas descrevem experiências, o artigo permite examinar uma investigação e a base ajuda a encontrar outros trabalhos. Compare as dificuldades relatadas com as tarefas e os participantes de cada estudo.',
+          'Peça ao professor que ajude a relacionar o que encontrou com o objetivo de aprendizagem. Definam uma tarefa comum para comparar a compreensão após o texto e o vídeo.'
+        ],
+        'colegas|artigo|comunidade': [
+          'Os colegas e a comunidade trazem experiências de contextos diferentes. O artigo permite confrontar esses relatos com uma investigação. Examine se estudavam conteúdos semelhantes e como acompanharam a aprendizagem.',
+          'Pesquise outros estudos sobre a pergunta que ficou em aberto. Registe a data, o contexto e os resultados que justificariam rever a escolha dos materiais.'
+        ],
+        'colegas|base|comunidade': [
+          'Os colegas e a comunidade ajudam a identificar dificuldades e possibilidades de uso. A base de dados permite procurar pesquisas sobre essas situações, em vez de decidir apenas pela frequência dos relatos.',
+          'Leia um estudo encontrado e examine como foi avaliada a compreensão. Discuta com o grupo se essa avaliação corresponde ao que pretende aprender.'
+        ],
+        'artigo|base|comunidade': [
+          'O artigo apresenta uma investigação, a base permite acompanhar outras pesquisas e a comunidade acrescenta experiências de aplicação. Compare os resultados publicados com as condições das atividades relatadas.',
+          'Escute os estudantes e peça orientação ao professor para definir uma tarefa de compreensão. Use-a para acompanhar o que aprendem com os materiais e rever a decisão.'
+        ]
+      };
+      const compare = () => {
+        feedback.hidden = false;
+        feedback.replaceChildren();
+        const paragraphs = selected.size === 3
+          ? comparisons[order.filter(key => selected.has(key)).join('|')]
+          : ['Escolha três fontes para comparar as suas contribuições.'];
+        for (const text of paragraphs) { const p = document.createElement('p'); p.textContent = text; feedback.append(p); }
+      };
+      const sync = () => {
+        document.querySelectorAll('[data-node]').forEach(button => {
+          const on = selected.has(button.dataset.node);
+          button.setAttribute('aria-pressed', String(on));
+          button.querySelector('.selection-mark').textContent = on ? '✓ Selecionada' : '';
+          document.querySelector('[data-edge="' + button.dataset.node + '"]')?.classList.toggle('selected', on);
+        });
+        document.querySelectorAll('[data-source-note]').forEach(note => { note.hidden = !selected.has(note.dataset.sourceNote); });
+        document.getElementById('network-count').textContent = selected.size + ' de 3 fontes escolhidas';
+        put('network', order.filter(key => selected.has(key)));
+        if (compared) compare();
+      };
+      document.querySelectorAll('[data-node]').forEach(button => button.addEventListener('click', () => {
+        const key = button.dataset.node;
+        if (selected.has(key)) selected.delete(key);
+        else if (selected.size === 3) {
+          limit.textContent = 'Já escolheu três fontes. Retire uma para acrescentar outra.';
+          return;
+        } else selected.add(key);
+        limit.textContent = '';
+        sync();
+      }));
+      document.getElementById('evaluate-network').addEventListener('click', () => { compared = true; compare(); });
+      sync();
     }
-    // Complementa os formulários nativos com grupos nomeados e anúncios de feedback.
-    // Observa apenas esta página; não transmite escolhas a qualquer serviço.
-    function enhanceForms(){
-      document.querySelectorAll('.FormView_question').forEach((question,i)=>{
-        question.removeAttribute('draggable');question.removeAttribute('role');question.removeAttribute('aria-labelledby');
-        const base=question.querySelector('.FormViewContainer');if(base){const p=base.querySelector('p');if(p){p.id=p.id||'pergunta-'+i;base.setAttribute('role','group');base.setAttribute('aria-labelledby',p.id);}}
+    function enhanceForms() {
+      document.querySelectorAll('.FormView_question').forEach((question, i) => {
+        question.removeAttribute('draggable');
+        question.removeAttribute('role');
+        question.removeAttribute('aria-labelledby');
+        const base = question.querySelector('.FormViewContainer');
+        const heading = base?.querySelector('h2, p');
+        if (heading) {
+          heading.id ||= 'pergunta-' + i;
+          base.setAttribute('role', 'group');
+          base.setAttribute('aria-labelledby', heading.id);
+        }
       });
-      document.querySelectorAll('.FormViewContainer_selection [title], .FormView_question .help-icon[title]').forEach(e=>e.setAttribute('title','Seleção com várias respostas possíveis'));
-      document.querySelectorAll('.form-feedback-message').forEach(f=>{f.setAttribute('role','status');f.setAttribute('aria-live','polite');});
+      document.querySelectorAll('.FormViewContainer_selection [title], .FormView_question .help-icon[title]').forEach(e => e.setAttribute('title', 'Seleção com várias respostas possíveis'));
+      document.querySelectorAll('.form-feedback-message, .feedback.js-feedback').forEach(f => { f.setAttribute('role', 'status'); f.setAttribute('aria-live', 'polite'); });
     }
-    const observer=new MutationObserver(enhanceForms);observer.observe(document.querySelector('.page-content')||document.body,{childList:true,subtree:true});enhanceForms();
+    new MutationObserver(enhanceForms).observe(document.querySelector('.page-content') || document.body, {childList:true, subtree:true});
+    enhanceForms();
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();

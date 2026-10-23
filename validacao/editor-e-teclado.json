@@ -1,0 +1,74 @@
+{
+  "editor": {
+    "title": "Como aprendemos com a tecnologia?",
+    "pages": [
+      {
+        "title": "Início",
+        "components": 2
+      },
+      {
+        "title": "Gerações digitais",
+        "components": 1
+      },
+      {
+        "title": "Aprender em rede",
+        "components": 1
+      },
+      {
+        "title": "Criar e colaborar",
+        "components": 2
+      },
+      {
+        "title": "Atenção e inclusão",
+        "components": 3
+      }
+    ],
+    "editorOpened": true,
+    "containsAna31": true,
+    "containsEstevao65": true,
+    "nativeSaveAvailable": true,
+    "localActions": [
+      {
+        "tag": "BUTTON",
+        "id": "saveIdevice20261023140000I00001",
+        "text": "Salvar",
+        "title": "Salvar"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "deleteIdevice20261023140000I00001",
+        "text": "Excluir dispositivo",
+        "title": ""
+      },
+      {
+        "tag": "BUTTON",
+        "id": "undoIdevice20261023140000I00001",
+        "text": "Descartar alterações",
+        "title": ""
+      }
+    ]
+  },
+  "keyboardNetwork": {
+    "selected": [
+      "professor",
+      "colegas"
+    ],
+    "notes": [
+      "professor",
+      "colegas"
+    ],
+    "focus": "colegas",
+    "outline": "rgb(168, 62, 37) solid 3px",
+    "focusVisible": true
+  },
+  "keyboardNative": {
+    "chosen": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "feedback": "Procurar o estudo e comparar pesquisas permite examinar as razões apresentadas para a afirmação",
+    "focusVisible": false
+  }
+}

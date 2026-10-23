@@ -1,45 +1,54 @@
 {
-  "base": "https://fabio-ara.github.io/elfd-etividade3-nao-basta-estar-ligado/",
-  "pages": 5,
+  "base": "http://127.0.0.1:8768/",
+  "scope": "revisão local, sem publicação",
+  "pages": [
+    "Início",
+    "Gerações digitais",
+    "Aprender em rede",
+    "Criar e colaborar",
+    "Atenção e inclusão"
+  ],
   "local_links": "OK",
   "local_anchors": "OK",
-  "files_checked": 89,
-  "public_http": [
+  "editorial_checks": "OK",
+  "six_practices": "OK",
+  "files_checked": 88,
+  "local_http": [
     {
       "path": "content.xml",
       "status": 200,
       "same_bytes": true,
-      "bytes": 512160
+      "bytes": 662840
     },
     {
       "path": "index.html",
       "status": 200,
       "same_bytes": true,
-      "bytes": 36083
+      "bytes": 35254
     },
     {
       "path": "html/aprender-em-rede.html",
       "status": 200,
       "same_bytes": true,
-      "bytes": 34704
+      "bytes": 34498
     },
     {
-      "path": "html/conceitos-e-critica.html",
+      "path": "html/atencao-e-inclusao.html",
       "status": 200,
       "same_bytes": true,
-      "bytes": 33758
+      "bytes": 40031
     },
     {
-      "path": "html/praticas-1-a-3.html",
+      "path": "html/criar-e-colaborar.html",
       "status": 200,
       "same_bytes": true,
-      "bytes": 34090
+      "bytes": 32831
     },
     {
-      "path": "html/praticas-4-a-6.html",
+      "path": "html/geracoes-digitais.html",
       "status": 200,
       "same_bytes": true,
-      "bytes": 40887
+      "bytes": 34219
     },
     {
       "path": "libs/common.js",
@@ -100,12 +109,6 @@
       "status": 200,
       "same_bytes": true,
       "bytes": 878
-    },
-    {
-      "path": "content/resources/imagens/catalogo.jpg",
-      "status": 200,
-      "same_bytes": true,
-      "bytes": 172323
     },
     {
       "path": "content/resources/imagens/computacao.jpg",
@@ -540,11 +543,13 @@
       "bytes": 1916
     }
   ],
+  "external_references": [],
   "elpx": {
     "DTD": "valid",
     "pages": 5,
-    "components": 10,
-    "photos_embedded": true,
-    "actual_screenshot": true
+    "components": 9,
+    "photo_embedded": true,
+    "actual_screenshot": true,
+    "web_zip_matches": true
   }
 }
